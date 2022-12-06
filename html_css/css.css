@@ -1,0 +1,148 @@
+/* css = cascading style sheets 
+
+    css inline, adicionar a propriedade css na própria tag, tem que repetir o código pra cada linha:
+        <p style="font-size: 16px; text-align: center">
+
+    tag </style> dentro de </head>:
+        <style>
+            p {text-align: center;}
+        </style>
+
+    mais comum é referenciar um arquivo externo style.css na </head>
+        <link rel="stylesheet" href="style.css">
+*/
+
+
+/* cores hexadecimais
+
+    alfabeto hexadecimal 0123456789ABCDEF
+    #000000, onde 00red 00green 00blue, 0 é ausência de cor e F máximo de cor
+
+    dicionário RGB: 0 ausência e 255 máximo
+    rgb(255,255,255), rgb(0,0,100)
+*/
+
+
+/* seletores
+
+    boa prática é seguir a mesma estrutura do html; ordem em que aparecem 
+
+    body            - tag body
+    p, h2           - elementos da tag p e da tag h2
+    em strong       - apenas elementos da tag strong que estão dentro da tag em
+    #id             - id é melhor usado para comportamentos; elementos únicos
+    .classe         - classe é melhor usada para estilos; multiplos elementos
+    .classe li      - elementos li dentro da classe .classe
+    main p          - todas as tags p dentro da main (mesmo dentro de outras tags)
+    main > p 	    - atua apenas em elementos nessa estrutura
+    img + p 	    - atua nos primeiros paragrafos após uma imagem
+    img ~ p 	    - atua em todos parágrafos após uma imagem
+    p:not(#id)      - atua em todos os parágrafos, excluindo os que tem o identificador indicado
+
+    :hover	        - quando o mouse estiver por cima do item
+    :active	        - quando o mouse estiver ativo, clicado
+    :visited        - link visitado
+    :required       - formulários
+    :first-child :last-child :nth-child(X)	- especificar itens de uma lista sem criar outra classe, (2n) p/ elementos pares
+    :first-letter :first-line
+
+    pseudo-elementos
+    :after :before  - conteúdo antes ou depois do elemento, ícones ou caractéres; usar content:"";
+*/
+
+
+/* declaração de variáveis */
+:root {
+    --cor-principal: pink;
+    /* usar no código com   var(--cor-principal) */
+}
+
+
+* {
+    color: lightblue; /* cor do conteúdo */
+    background: #CCCCCC; /* fundo do elemento */
+    background: url("imagem.png"); /* imagem de fundo; por padrão a imagem é repetida até preencher o espaço */
+    background: linear-gradient(45deg, orange 50%, blue 50%); /* cor gradiente no css, pode mexer na inclinação e porcentagem da tela de onde o gradiente começa, radial-gradient para círculo */
+
+    height: 50px; /* altura */
+    width: 100%; /* largura; se for px, pode-se definir margin: 0 auto; após para centralizar conteúdo; 100vw para ignorar padding ou border (viewport width)*/
+    max-width: 720px; /* importante delimitar o tamanho máximo do elemento p/ ñ crescer sem fim */
+    /* calculo no css */
+    width: calc(40% - ((26px * 4) / 4));
+
+    box-sizing: border-box; /* ajusta o tamanho do elemento como definitivo, padding e margin passam a ser internas ao elemento em si */
+    transition: 0.5s all; /* tempo de transição de algum efeito; tempo e elemento */
+    cursor: pointer; /* trocar seta do mouse pela mãozinha clicável */
+    transform: scale(1.2) rotate(70deg); /* escalonar e rotacionar elemento */
+
+    opacity: 0.5;                   /* transparencia do elemento, vai de 1 a 0 */
+    color: rgba(0,0,0,0.5);     /* transparencia na cor, rgb com a camada alfa */
+    box-shadow: ;                   /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
+    box-shadow: ;                   /* a b c cor, a2 b2 c2 cor2;		mais de uma sombra */
+    box-shadow: inset X Y blue;    /* sombra interna */
+}
+
+.fontes {
+    font-size: 20px; /* tamanho da fonte */
+    /* em para se referir a fonte base em pixels (2*16px), usa a tag mãe do elemento, mais individual para elementos
+    rem é relativo a tag html, com maior nivel hierarquico de todos (root efemeral), pode se adaptar a tipos de browsers diferentes, que podem usar padrões de fontes diferentes */
+    font-style: italic; /* estilo da fonte */
+    font-family: 'Open Sans', sans-serif; /* nome da família da fonte, fonte alternativa */
+    font-weight: bold; /* peso da fonte */
+    text-align: center; /* centraliza conteúdo */
+    text-transform: uppercase; /* transforma conteúdo todo em maiusculo */
+    text-decoration: none; /* remove as decorações, sublinhados */
+    line-height: 1.5rem; /* altura da linha */
+}
+
+.espacamentos {
+    /* margin > border > padding => espaçamento externo > borda > espaçamento interno */
+    margin: 0 0; /* valor superior-inferior, valor lados */
+    border: 10px solid #000000; /* valor-geral, estilo e cor */
+    padding: 0 0 0 0; /* superior, direita, inferior, esquerda */
+    border-radius: 5px; /* canto arredondado, raio da curva */
+}
+
+.comportamentos {
+    display: block; /* elemento ocupa uma linha toda */
+    display: inline; /* elemento permite outros conteúdos ao lado; não deixa alterar padding e margin */
+    display: inline-block; /* interpreta tudo no html, inclusive espaçamento, então para deixar elementos lado a lado, vai ser necessário colar os elementos no código; ver vertical-align: top; */
+}
+
+.posicoes {
+    position: static; /* posição natural dos elementos */
+    position: relative; /* relativo ao ponto inicial de criação; receber parâmetros de posição como o top: e left:*/
+    position: absolute; /* posição absoluta em relação a página; também recebe top:, left: */
+    /* para que um elemento seja absolute em relação a um elemento pai, este elemento pai deve ter ser relative */
+    
+    z-index: 1;	    /* para definir elemento no eixo z, sobreposição */
+}
+
+.float {
+    float: left; /* elemento fica livre na página, mas ainda marcado (p/ imagem com parágrafos na sequencia), afeta toda estrutura da página */
+    clear: left; /* limpa o float para elementos seguintes */
+}
+
+
+/* media queries => adaptação para celular */
+@media screen and (max-widgth: 480px) {
+    /* reescreve código */
+    /* por convenção, se utiliza a menor tela de celular com 320px, 480px p/ média de tablet e 1120px média desktop */
+}
+
+
+/* metodologia BEM para nomear classes => Block Element Modifier => bloco__elemento--modificador */
+
+
+/*
+    print quando for preparar tela para imprimir algo, ex: boleto
+
+    grids dividem a tela em proporção, container é a estrutura que serve de base para colunas (col), gutter é o espaço entre as colunas
+    row divide a tela horizontalmente, resetando o padding do container
+
+    display: flex; => elementos dentro de um espaço, podem ser remanejados, se torna um flex container
+    flex-wrap: nowrap; => não quebra linha; wrap; => quebra linha
+    flex-direction: column, row, etc
+    display: grid; => grid container => grid-template-columns: auto 1fr => gap: 8px
+    grid-template-areas: "x x y z" classifica posições no grid, entre aspas fica uma linha, com o que cada coluna ocupa, depois dentro dos elementos, chama o nome do espaço que ele vai ocupar na coluna
+ */

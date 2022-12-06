@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+	// pula duas linhas
+	document.write("<br><br>");
+}
+
+function mostra(frase) {
+	// mostra o texto e pula linha
+	document.write(frase);
+	pulaLinha();
+}
+
+for( var i = 0; i < 10; i++ ) {
+    mostra( "O resultado é " + (2 * i) );
+}
+
+var i = 0
+
+while(i < 10) {
+
+	mostra("O resultado é " + (2 * i))
+	i++
+
+}
+
+</script>

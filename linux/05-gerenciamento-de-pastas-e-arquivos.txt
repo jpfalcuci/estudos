@@ -1,0 +1,28 @@
+            gerenciamento de pastas e arquivos
+
+criar uma pasta             mkdir nome-diretorio
+criar várias pastas         mkdir dir1 dir2 dir3
+
+listar conteúdo             ls
+ver estrutura da pasta      tree diretorio (muito útil no ansible)
+
+acessar pasta               cd diretorio
+voltar uma pasta            cd ..
+voltar ao dir anterior      cd -
+
+mostrar diretorio atual     pwd
+
+criar arquivos              touch file1 file2
+
+verificar tipo do arquivo   file file1
+
+editar arquivo              vim file1
+
+copiar arquivo              cp file1 /dir-destino
+
+mover arquivo               mv file1 /dir-destino
+renomear arquivo            mv file1 novo-nome
+
+encontrar arquivo/pasta     find -name nome-arquivo/diretorio
+
+remover arquivo             rm arquivo

@@ -1,0 +1,8 @@
+            instalação de pacotes (ubuntu)
+
+
+atualizar repositórios      sudo apt update
+
+instalar pacotes            apt install pacote/comando
+
+verificar softwares         service software status

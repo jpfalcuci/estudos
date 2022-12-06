@@ -1,0 +1,24 @@
+            gerenciamento de permissões
+
+
+r = read        4
+w = write       2
+x = execution   1
+
+- rwx rwx rwx
+(objeto | dono | grupo | outros)
+
+alterar permissões      chmod 765 file/directory
+
+
+
+            criação de usuários
+
+
+informações de todos usuários   cat /etc/passwd
+adicionar usuário               useradd nome_usuario
+trocar de usuário               su nome_usuario
+verificar usuário ativo         whoami
+cadastrar senha                 passwd nome_usuario
+
+selecionar usuário root         sudo su

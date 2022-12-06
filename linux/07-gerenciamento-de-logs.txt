@@ -1,0 +1,9 @@
+            gerenciamento de logs
+
+
+/var/log/
+
+visualizar log                  cat file.log
+visualizar em tempo real        tail -f file.log
+filtrar em um log               cat file.log | grep palavra-alvo
+filtrar em tudo                 grep palavra-alvo *

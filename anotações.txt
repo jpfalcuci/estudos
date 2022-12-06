@@ -1,0 +1,92 @@
+<computacao>
+	- toda comunicação de rede utiliza um protocolo
+	- http é o protocolo que faz a rede da internet funcionar (cliente - servidor)
+	- front-end é o que se vê e se interage, botões, imagens, animações
+	- 3 linguagens para trabalhar com front-end, desenv. p/ web, html, javascprit e css
+	- html é uma linguagem de marcação, consegue definir conteúdos da tela, textos, imagens, separar conteúdos em caixas, etc
+	- css define estilo do conteúdo, posições, etc
+	- javascript línguagem de programação e fornece comportamentos de botões, links, interação
+	- existem tecnologias, ferramentas, frameworks p/ trabalhar com front-end afim de facilitar a interação com a linguagem
+	- back-end é o que não se vê, contem a lógica do negócio, os dados
+	- algumas da linguagens possíveis p/ back-end são php, java, c#, python, ruby, c++, javascript, entre outras
+
+	- linguagem de alto nível é uma linguagem que nós humanos entendemos, palavras, termos
+	- código de máquina é a linguagem que o computador entende, mais restrita a operações de soma, guarda, compara
+	- computador usa tradutores para transformar linguagem de alto nível em linguagem de máquina
+	- códigos compilados são interpretados de uma só vez e enviados para o computador executar, geralmente mais rápidos, verifica erros antes de executar, leva um tempo extra para executar o programa, gera código que só funciona no seu computador ou classe de computadores parecidos com o seu, (exemplos são: c, rust, go), normalmente programas que precisam de alta performance como motores de jogos, servidores de grande quantidade de dados, c é a linguagem que está por trás da maioria dos sistemas operacionais hoje em dia, 
+	- códigos interpretados são interpretados e executados "linha por linha", só verifica erros executando, executa o programa na hora, executa em diferentes máquinas, (exemplos são: js, python, php, ruby), programas que valorizam processo de desenvolvimento, aplicações web, servidores, projetos de ciências de dados, 
+	- ainda assim, uma mesma linguagem pode ter tanto o compilador quanto interpretador, e mais de uma versão da mesma interpretação e ainda pode haver uma implementação híbrida
+	- implementações híbridas, jit compilation (just in time, compilação na hora certa), rápido e fácil, v8 é uma engine da google em js e roda no chrome, também no node.js (back-end em js), java também é outro exemplo, compila e gera um byte code .class e interpreta e executa em qualquer máquina com jvm (máquina virtual java)
+
+	- memória não volátil, guarda a informação mesmo desligada, hd, ssd, memórias secundárias, guardam hierarquia de pastas e arquivos
+	- memória volátil, ou de trabalho, RAM, guarda os dados que estamos trabalhando ou estão sendo usados, não guarda a informação quando desligado
+	- memória ROM é uma memória não volátil apenas para leitura e de baixo armazenamento, onde ficam as informações para inicializar o computador, como p/ exemplo a BIOS
+	- CPU, processador, recebe informações da mem. RAM e executa, é dividido em algumas partes, Unidade de Controle analisa as instruções, Unidade Lógico Aritmética executa/manipula os dados, Registradores é o local onde guardam memória básica, instrução e posição atual, valores intermediários das operações, Memória Cache memória rápida do processador
+
+	- html é uma linguagem de marcação de texto, css é uma linguagem de estilos, javascript é uma linguagem de programação
+</computacao>
+
+<atalhos vscode>
+	Listar todos os atalhos do vscode
+	Ctrl + k Ctrl + s
+
+	Localizar no arquivo
+	Ctrl + f
+	Ctrl + Shift + F (em todos arquivos)
+
+	Substituir
+	Ctrl + h
+
+	Encontrar próximo / anterior
+	F3 / Shift + F3 
+
+	Seleciona todas as ocorrências encontradas
+	Alt + Enter
+
+	Seleciona todas as ocorrências da seleção do cursor
+	Ctrl + F2 
+
+	Adicionar seleção ao próximo Find Match
+	Ctrl + D
+
+	Expandir e recolher seleção
+	Shift + Alt + →		Shift + Alt + ←
+
+	Move a última seleção para a próxima Find match
+	Ctrl + K Ctrl + D 
+
+	Multiseleção
+	Alt + Clique no cursor
+	Ctrl + U Desfazer a última operação do cursor
+
+	Indentar documento inteiro
+	Shift + Alt + F
+
+	Indentar linhas
+	Tab
+	Shift + Tab
+
+	Mover linhas
+	Alt + Seta pra cima ou pra baixo para mover linhas.
+
+	Copiar linhas
+	Shift + Alt + Seta pra cima ou pra baixo
+
+	Apagar linha
+	Ctrl + shift + k
+
+	Insira o cursor no final de cada linha selecionada
+	Shift + Alt + i
+
+	Ir para o início / final de cada linha
+	Home / End
+
+	Ir para o início / final do arquivo
+	Ctrl + Home / End
+
+	Comentar linhas
+	Ctrl + k Ctrl + c		Ctrl + k Ctrl + u (tirar comentário)
+
+	Comentar bloco
+	Shift + Alt + a
+</atalhos vscode>

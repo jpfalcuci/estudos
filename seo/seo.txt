@@ -1,0 +1,26 @@
+search engine optimization
+
+além da otimização, é preciso ter presença digital em redes que façam sentido p/ seu negócio
+existem tipos de otimização, p/ sites, p/ redes sociais
+na bio do instagram pode utilizar #, use 2 a 3 para categorizar seu serviço, não tão generalistas
+quanto mais interação e ações no seu perfil, mais entrega ele terá
+estratégias de otimização do seo, tudo que tem dentro do site pode e deve ser otimizado p/ leitura do google
+
+conteúdos otimizáveis:
+    pesquisa de palavras-chave (genéricos => +resultados, específicos => -resultados, etc)
+    plataformas que ajudam a criar conteúdo para o site => Google Trends, Ubersuggest, Answer The Public
+
+otimização on page => feitas na estrutura interna da página, sendo as principais:
+    1. título da página (primeira informação que o google colhe, local para a primeira palavra chave, genérica)
+    2. meta tag ou meta description (texto que aparece abaixo do link, mini resumo focado no usuário(!), interessante usar call to actions)
+    3. imagens [alt text] (descrição das imagens)
+    4. subtitulos (headings, h1, h2, o google lê após o título, e siga ordem hierarquica)
+    5. links da página (url, links externos, internos)
+
+otimização off page => trabalho de reforço de marca, divulgação e aumento da confiabilidade da sua marca
+
+práticas condenáveis de seo: (black hat)
+    excesso de palavras chave; conteúdo oculto; plágio/conteúdo duplicados; spam
+
+tendências (2021):
+    conteúdo; pesquisa por voz (com termos de pesquisa mais longos, informal); SEO local (entregas, locais próximos)

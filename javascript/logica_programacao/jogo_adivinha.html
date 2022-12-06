@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+	// pula duas linhas
+	document.write("<br><br>");
+}
+
+function mostra(frase) {
+	// mostra o texto e pula linha
+	document.write(frase);
+	pulaLinha();
+}
+
+function sorteia(n) {
+	// sorteira um número
+	return (Math.round(Math.random() * 10));
+	}
+
+var n = sorteia();
+var tentativas = 1;
+
+while( tentativas <= 3 ) {
+	var chute = parseInt(prompt("Digite seu chute!"));
+
+	if(chute == n) {
+		mostra("Você acertou! O número sorteado foi " + n);
+		break;
+		} else { 
+			if(chute > n) {
+			mostra("Seu palpite foi maior que o número sorteado");
+		} else {
+			mostra("Seu palpite foi menor que o número sorteado");
+		}
+	}
+
+	tentativas++;
+}
+
+mostra("Fim");
+
+</script>

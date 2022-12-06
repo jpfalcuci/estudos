@@ -1,0 +1,125 @@
+<!-- html = hypertext markup language -->
+
+<!DOCTYPE html> <!-- indica ao navegador que está usando a última versão do html -->
+<html lang="pt-br"> <!-- conteúdo html; informa o idioma da página -->
+
+    <head> <!-- informações passadas para o navegador -->
+        <meta charset="UTF-8"> <!-- indica a cadeia de caracteres usada, character set encoding -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define o zoom inicial da página no device -->
+        <title>Document</title> <!-- título da página -->
+        <link rel="stylesheet" href="reset.css"> <!-- criado pela comunidade, limpa as configurações padrão do navegador -->
+        <!-- normalize.css, também limpa mas mantém alguns padrões que são úteis e corrige alguns bugs comuns de navegadores -->
+        <link rel="stylesheet" href="style.css"> <!-- referência ao arquivo externo .css -->
+    </head>
+
+    <body>                                          <!-- informações a serem exibidas na tela -->
+        
+        <header>                                    <!-- cabecalho da página -->
+            <h1>Título</h1>                         <!-- "heading" p/ títulos; vai até h6 -->
+        </header>
+
+        <main>                                      <!-- conteúdo principal da página -->
+
+            <br> <!-- pula linha, break -->
+            <hr> <!-- insere uma linha -->
+
+            <section>                                   <!-- seção, título e texto pra um mesmo assunto -->
+                <div class="class__divisao">            <!-- divisões para marcação de conteúdo -->
+                    <p>Parágrafo</p>                    <!-- paragrafo -->
+                    <strong>conteúdo</strong>           <!-- dar importância ao seu conteúdo; negrito -->
+                    <em>conteúdo</em>                   <!-- dar ênfase ao seu conteúdo; itálico -->
+                    <p id="identificador"></p>          <!-- identificador único de um elemento -->
+                </div>
+            </section>
+            
+            <abbr title="Estados Unidos da América">EUA</abbr></p>  <!-- tag para abreviação -->
+
+            <figure>                                    <!-- normalmente usado para imagem, ilustração, etc -->
+                <img src="imagem.jpg" alt="imagem">     <!-- adicionar imagem -->
+                <figcaption>Legenda da imagem</figcaption>
+            </figure> 
+            
+            <canvas width="600px" height="400px">       <!-- área para desenhar, tela		 -->
+            </canvas>    
+            
+            <audio controls>                            <!-- arquivo de áudio, controls para exibir player -->
+                <source src="horse.mp3" type="audio/mpeg">
+            </audio>
+
+            <button type="button" aria-label="Entrar">Clique aqui</button>  <!-- elemento botão -->
+
+            <ul>                                    <!-- unordered list; lista desordenada -->
+                <li>list item</li>
+            </ul>
+            
+            <ol>                                    <!-- ordered list; lista ordenada -->
+                <li>item da lista</li>
+            </ol>
+            
+            <nav>                                   <!-- menu de navegação -->
+                <a href="index.html">Link</a>       <!-- ancor, âncora p/ links -->
+            </nav>
+
+            <form>                                  <!-- formulário -->
+                <label for="nome">Nome</label>      <!-- etiqueta para o input e entrada de dados-->
+                <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
+
+                <label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <!-- http://mobileinputtypes.com/	=> inputs do html5 p/ celular -->
+                
+                <fieldset>                          <!-- grupo de campos de um mesmo assunto, ex: cartão de crédito, endereço -->
+                    <legend>Contato?</legend>       <!-- título dentro de um fildset (fieldset não tem p) -->
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked> Email</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Horário</legend>
+                    <select>                        <!-- menu dropdown -->
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Receber novidades?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            <form>
+
+            <table>                                 <!-- tabela -->
+                <thead>                             <!-- cabeçalho da tabela -->
+                    <tr>                            <!-- table row, linhas -->
+                        <th>Cabecalho</th>          <!-- celula do cabeçalho -->
+                    </tr>
+                </thead>
+                <tbody>                             <!-- corpo da tabela -->
+                    <tr>
+                        <td>Conteúdo</td>           <!-- celula -->
+                        <td colspan="num"></td>     <!-- celula agrupada, n de celulas a serem agrupadas -->
+                    </tr>
+                </tbody>
+                <tfoot>                             <!-- rodapé da tabela -->
+                    <tr>
+                        <td>Rodapé</td>             <!-- celula -->
+                    </tr>
+                </tfoot>
+            </table>	
+            
+            <!-- conteúdo externo, maps, youtube, instagram, facebook, etc -->
+            <iframe src="link" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+            <address>                               <!-- informações de contato -->
+            </address>
+
+        </main>
+
+        <footer>                                    <!-- rodapé da página -->
+
+        </footer>
+
+    </body>
+
+</html>

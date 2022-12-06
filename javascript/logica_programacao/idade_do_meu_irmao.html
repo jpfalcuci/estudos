@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+	// pulando duas linhas com um traço
+	document.write("<br><hr><br>")
+}
+
+function mostrar(texto) {
+	// mostra o texto e pula linha
+	document.write("<big>" + texto + "</big>")
+	pulaLinha()
+}
+
+function arredondar(valor) {
+	Math.round(valor)
+}
+
+var idadeJoão = 29
+var idadeLuan = 27
+var diferencaIdade = idadeJoão - idadeLuan
+
+mostrar("João tem " + idadeJoão + " anos")
+mostrar("Luan tem " + idadeLuan + " anos")
+
+pulaLinha()
+
+mostrar("Nossa diferença de idade é de " + diferencaIdade + " anos")
+
+pulaLinha()
+
+var anoDescobrimento = 1500
+var anoAtual = 2022
+var idadeGeração = 28
+var quantidadeAnos = anoAtual - anoDescobrimento
+var quantidadeGerações = quantidadeAnos / idadeGeração
+
+mostrar("Desde o ano de " + anoDescobrimento + ", até o atual ano de " + anoAtual + ", já se passaram " + Math.round(quantidadeGerações) + " gerações, considerando gerações de " + idadeGeração + " anos.")
+
+</script>

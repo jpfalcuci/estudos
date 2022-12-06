@@ -1,0 +1,247 @@
+﻿Nome;Categoria;Ano;Km;Motor;Itens;Valor(R$);Local;Oportunidade;Imagem
+Lamborghini Aventador;Usado;1993;55286;Motor 1.8 16v;['4 X 4', 'Câmera de estacionamento', 'Controle de tração', 'Sensor de estacionamento'];338000;Belo Horizonte - MG;Não;lamborghini-aventador-2932196__340.png
+Bmw M2;Usado;2018;83447;Motor 3.0 32v;['Câmera de estacionamento', 'Controle de estabilidade', 'Travas elétricas', 'Freios ABS'];346000;Belo Horizonte - MG;Não;bmw-m2-2970882__340.png
+Alfa;Usado;2004;19722;Motor 1.8 16v;['Central multimídia', 'Bancos de couro', 'Rodas de liga', 'Câmera de estacionamento'];480000;Rio de Janeiro - RJ;Não;alfa-1823056__340.png
+Puech;Usado;1992;34335;Motor Diesel V8;['Bancos de couro', 'Freios ABS', 'Rodas de liga', 'Câmbio automático'];133000;São Paulo - SP;Não;puech-4055386__340.png
+Lamborghini Murcielago;Usado;1991;464;Motor 1.0 8v;['Central multimídia', 'Teto panorâmico', 'Sensor crepuscular', 'Piloto automático'];175000;Belo Horizonte - MG;Não;lamborghini-murcielago-2872974__340.png
+Aston Martin;Usado;2004;50189;Motor Diesel V6;['Painel digital', 'Controle de tração', 'Teto panorâmico', 'Central multimídia'];239000;Belo Horizonte - MG;Sim;aston-martin-2977916__340.png
+Tvr;Usado;2014;17778;Motor 4.0 Turbo;['4 X 4', 'Teto panorâmico', 'Central multimídia', 'Controle de estabilidade'];115000;Belo Horizonte - MG;Não;tvr-2943925__340.png
+Excalibur;Usado;2009;81251;Motor 3.0 32v;['Painel digital', 'Câmbio automático', 'Sensor de chuva', 'Travas elétricas'];114000;Rio de Janeiro - RJ;Não;excalibur-2916730__340.png
+Mclaren;Novo;2019;0;Motor Diesel;['Central multimídia', 'Câmera de estacionamento', 'Câmbio automático', 'Ar condicionado'];75000;São Paulo - SP;Não;mclaren-2855240__340.png
+Toyota;Usado;1999;12536;Motor 4.0 Turbo;['Bancos de couro', 'Freios ABS', 'Piloto automático', 'Controle de estabilidade'];117000;São Paulo - SP;Sim;toyota-3245397__340.png
+Volkswagen Beetle;Novo;2019;0;Motor 1.0 8v;['Teto panorâmico', 'Controle de tração', 'Sensor crepuscular', '4 X 4'];177000;Rio de Janeiro - RJ;Não;volkswagen-beetle-3295906__340.png
+Spirit Of Ecstasy;Usado;2011;107484;Motor 3.0 32v;['Ar condicionado', 'Travas elétricas', 'Rodas de liga', 'Bancos de couro'];322000;Belo Horizonte - MG;Não;spirit-of-ecstasy-188975__340.png
+Porsche 911 Gt2Rs;Usado;1992;908;Motor 3.0 32v;['Piloto automático', 'Painel digital', 'Ar condicionado', 'Vidros elétricos'];194000;Rio de Janeiro - RJ;Não;porsche-911-gt2rs-3076518__340.png
+Koenigsegg;Usado;2015;22485;Motor 2.4 Turbo;['Sensor crepuscular', 'Painel digital', 'Teto panorâmico', 'Vidros elétricos'];469000;São Paulo - SP;Não;koenigsegg-2086612__340.png
+Limousine;Usado;1996;23007;Motor Diesel V6;['4 X 4', 'Câmera de estacionamento', 'Painel digital', 'Controle de tração'];424000;Belo Horizonte - MG;Sim;limousine-1126028__340.png
+Ferrari Ff;Usado;2002;106389;Motor 4.0 Turbo;['Rodas de liga', 'Bancos de couro', 'Freios ABS', 'Travas elétricas'];291000;Belo Horizonte - MG;Não;ferrari-ff-2975657__340.png
+Offenburg;Usado;1990;78181;Motor 5.0 V8 Bi-Turbo;['Freios ABS', 'Piloto automático', 'Controle de estabilidade', 'Vidros elétricos'];96000;Rio de Janeiro - RJ;Não;offenburg-3898117__340.png
+Mustang;Usado;1998;86001;Motor Diesel V8;['Sensor de estacionamento', 'Ar condicionado', 'Central multimídia', 'Travas elétricas'];271000;São Paulo - SP;Não;mustang-1184505__340.png
+Luxury;Novo;2019;0;Motor 2.4 Turbo;['Rodas de liga', 'Controle de tração', 'Freios ABS', 'Sensor de estacionamento'];387000;Rio de Janeiro - RJ;Não;luxury-2493869__340.png
+Bmw M5;Usado;2017;10747;Motor 3.0 32v;['Painel digital', 'Central multimídia', 'Vidros elétricos', 'Ar condicionado'];483000;Rio de Janeiro - RJ;Não;bmw-m5-2932194__340.png
+Porsche 911 Gt3Rs;Usado;1991;28617;Motor Diesel;['Painel digital', 'Controle de estabilidade', '4 X 4', 'Sensor de chuva'];285000;Belo Horizonte - MG;Não;porsche-911-gt3rs-2933986__340.png
+Gold;Novo;2019;0;Motor V8;['Ar condicionado', 'Travas elétricas', 'Sensor de chuva', 'Bancos de couro'];357000;Belo Horizonte - MG;Não;gold-2428523__340.png
+Cabriolet;Novo;2019;0;Motor Diesel V6;['Sensor de estacionamento', 'Teto panorâmico', 'Sensor crepuscular', 'Ar condicionado'];106000;Belo Horizonte - MG;Sim;cabriolet-4170187__340.png
+Chrysler 300;Usado;2009;67480;Motor 2.0 16v;['Rodas de liga', 'Câmera de estacionamento', 'Sensor crepuscular', 'Travas elétricas'];439000;Rio de Janeiro - RJ;Não;chrysler-300-2864861__340.png
+Classic;Novo;2019;0;Motor 4.0 Turbo;['Painel digital', 'Teto panorâmico', 'Travas elétricas', 'Sensor de estacionamento'];143000;Rio de Janeiro - RJ;Não;classic-1678559__340.png
+Dodge;Usado;1999;85451;Motor 2.0 16v;['Freios ABS', '4 X 4', 'Sensor de chuva', 'Rodas de liga'];155000;Belo Horizonte - MG;Não;dodge-2915589__340.png
+Vintage Automobile;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['Travas elétricas', 'Câmbio automático', 'Bancos de couro', 'Teto panorâmico'];337000;São Paulo - SP;Não;vintage-automobile-1672058__340.png
+Corvette;Usado;1996;107305;Motor 1.8 16v;['Piloto automático', 'Controle de estabilidade', 'Freios ABS', 'Ar condicionado'];89000;Belo Horizonte - MG;Não;corvette-2291857__340.png
+Opel;Usado;1997;119942;Motor 4.0 Turbo;['Central multimídia', 'Piloto automático', 'Sensor de estacionamento', 'Ar condicionado'];193000;Rio de Janeiro - RJ;Não;opel-2896688__340.png
+Audi R8;Usado;1993;86338;Motor 1.8 16v;['Painel digital', 'Travas elétricas', 'Vidros elétricos', '4 X 4'];356000;Belo Horizonte - MG;Não;audi-r8-1548170__340.png
+Aston Martin Vulcan;Novo;2019;0;Motor Diesel;['Câmbio automático', 'Sensor de chuva', 'Controle de tração', 'Teto panorâmico'];141000;Rio de Janeiro - RJ;Não;aston-martin-vulcan-2918114__340.png
+Triumph Motor Company;Novo;2019;0;Motor V6;['Central multimídia', 'Ar condicionado', 'Bancos de couro', 'Câmera de estacionamento'];176000;Rio de Janeiro - RJ;Sim;triumph-motor-company-3403574__340.png
+Vintage Car;Usado;2003;59288;Motor V8;['Freios ABS', 'Piloto automático', 'Sensor de chuva', 'Vidros elétricos'];65000;Rio de Janeiro - RJ;Não;vintage-car-1049882__340.png
+Acura Headlamp;Novo;2019;0;Motor V6;['Câmera de estacionamento', 'Câmbio automático', 'Piloto automático', 'Central multimídia'];449000;Belo Horizonte - MG;Não;acura-headlamp-2834131__340.png
+Luxury Cars;Usado;2014;37738;Motor Diesel V8;['Rodas de liga', 'Painel digital', 'Sensor de estacionamento', 'Teto panorâmico'];379000;Rio de Janeiro - RJ;Sim;luxury-cars-1197705__340.png
+Ferrari 458 Spider;Usado;1993;24316;Motor V6;['Central multimídia', 'Controle de estabilidade', 'Piloto automático', 'Sensor de chuva'];262000;Belo Horizonte - MG;Não;ferrari-458-spider-2932191__340.png
+Classic Automobile;Usado;2016;35762;Motor 3.0 32v;['Câmbio automático', 'Sensor de estacionamento', 'Bancos de couro', 'Câmera de estacionamento'];356000;Rio de Janeiro - RJ;Não;classic-automobile-1672002__340.png
+Infinity;Usado;1990;51693;Motor 2.4 Turbo;['Câmera de estacionamento', 'Piloto automático', 'Ar condicionado', 'Painel digital'];459000;Rio de Janeiro - RJ;Não;infinity-1568821__340.png
+Aston Martin Vanquish;Novo;2019;0;Motor 4.0 Turbo;['Painel digital', 'Piloto automático', 'Sensor de estacionamento', 'Sensor crepuscular'];183000;São Paulo - SP;Sim;aston-martin-vanquish-2975656__340.png
+Mercedes Benz 190 Sl;Usado;1994;111906;Motor 3.0 32v;['Câmbio automático', 'Freios ABS', 'Sensor crepuscular', 'Controle de estabilidade'];61000;Belo Horizonte - MG;Sim;mercedes-benz-190-sl-2982511__340.png
+Audi Tt;Usado;2008;82711;Motor Diesel V6;['Sensor de chuva', 'Rodas de liga', 'Câmera de estacionamento', 'Travas elétricas'];225000;São Paulo - SP;Não;audi-tt-1037977__340.png
+District;Usado;1995;36215;Motor Diesel V6;['Sensor de chuva', 'Rodas de liga', 'Piloto automático', '4 X 4'];181000;São Paulo - SP;Não;district-4226500__340.png
+Vintage;Usado;2005;63879;Motor 4.0 Turbo;['4 X 4', 'Ar condicionado', 'Câmbio automático', 'Controle de estabilidade'];460000;Rio de Janeiro - RJ;Não;vintage-1275225__340.png
+Audi;Novo;2019;0;Motor Diesel V6;['Piloto automático', 'Bancos de couro', 'Painel digital', 'Controle de tração'];161000;São Paulo - SP;Não;audi-1059039__340.png
+Audi Rs6;Usado;1999;26215;Motor Diesel V6;['Travas elétricas', 'Central multimídia', 'Vidros elétricos', 'Ar condicionado'];188000;Belo Horizonte - MG;Sim;audi-rs6-2934125__340.png
+Ferrari 458 Speciale;Usado;2018;1;Motor Diesel V6;['Freios ABS', 'Controle de estabilidade', 'Painel digital', 'Ar condicionado'];97000;São Paulo - SP;Não;ferrari-458-speciale-2918112__340.png
+Truck;Usado;2001;68038;Motor 4.0 Turbo;['Rodas de liga', 'Sensor de estacionamento', 'Vidros elétricos', 'Câmbio automático'];415000;Belo Horizonte - MG;Não;truck-2158284__340.png
+Corvette Stingray;Usado;1996;86477;Motor 1.8 16v;['Câmbio automático', 'Controle de estabilidade', 'Sensor de estacionamento', 'Ar condicionado'];172000;São Paulo - SP;Não;corvette-stingray-1693709__340.png
+Lamborghini;Usado;2004;103570;Motor 3.0 32v;['Vidros elétricos', 'Câmbio automático', 'Piloto automático', 'Teto panorâmico'];281000;Rio de Janeiro - RJ;Não;lamborghini-1104868__340.png
+Chrysler;Novo;2019;0;Motor 3.0 32v;['4 X 4', 'Ar condicionado', 'Câmera de estacionamento', 'Sensor de estacionamento'];396000;São Paulo - SP;Não;chrysler-836045__340.png
+Range Rover;Usado;2014;85686;Motor V6;['Sensor de chuva', 'Ar condicionado', 'Painel digital', 'Teto panorâmico'];450000;São Paulo - SP;Não;range-rover-2015635__340.png
+Hammer;Novo;2019;0;Motor Diesel V8;['Bancos de couro', 'Travas elétricas', 'Sensor de estacionamento', 'Controle de tração'];470000;Belo Horizonte - MG;Não;hammer-4294076__340.png
+Felicia;Usado;1990;68513;Motor 2.0 16v;['Central multimídia', 'Painel digital', 'Ar condicionado', '4 X 4'];64000;Belo Horizonte - MG;Não;felicia-3619629__340.png
+Maserati Granturismo;Usado;2011;71783;Motor 5.0 V8 Bi-Turbo;['Piloto automático', 'Bancos de couro', '4 X 4', 'Sensor crepuscular'];343000;São Paulo - SP;Não;maserati-granturismo-2933798__340.png
+Lamborghini Aventador S;Usado;2017;115844;Motor Diesel V8;['Câmera de estacionamento', 'Sensor de estacionamento', 'Central multimídia', 'Teto panorâmico'];106000;São Paulo - SP;Não;lamborghini-aventador-s-2943829__340.png
+Bentley;Usado;1994;46442;Motor V6;['Vidros elétricos', 'Piloto automático', 'Sensor crepuscular', '4 X 4'];493000;Belo Horizonte - MG;Não;bentley-1273358__340.png
+Aston;Novo;2019;0;Motor 2.4 Turbo;['Painel digital', 'Piloto automático', 'Freios ABS', 'Controle de estabilidade'];370000;São Paulo - SP;Não;aston-884085__340.png
+Lamborghini Gallardo;Usado;1993;77846;Motor 5.0 V8 Bi-Turbo;['4 X 4', 'Painel digital', 'Travas elétricas', 'Sensor crepuscular'];474000;São Paulo - SP;Não;lamborghini-gallardo-2872975__340.png
+Bmw 1M;Usado;2014;28833;Motor 1.0 8v;['Sensor crepuscular', 'Sensor de chuva', 'Piloto automático', 'Câmera de estacionamento'];420000;Belo Horizonte - MG;Não;bmw-1m-2933795__340.png
+Mercedes S Class;Novo;2019;0;Motor 2.4 Turbo;['Central multimídia', 'Câmera de estacionamento', 'Sensor de estacionamento', 'Painel digital'];215000;São Paulo - SP;Não;mercedes-s-class-2724977__340.png
+Vintage Auto;Usado;2014;59723;Motor 5.0 V8 Bi-Turbo;['Freios ABS', 'Piloto automático', 'Controle de estabilidade', 'Sensor crepuscular'];236000;Belo Horizonte - MG;Não;vintage-auto-1618836__340.png
+Leather Steering Wheel;Usado;2001;74365;Motor V6;['Controle de tração', '4 X 4', 'Câmera de estacionamento', 'Controle de estabilidade'];124000;Rio de Janeiro - RJ;Sim;leather-steering-wheel-2654960__340.png
+Dkw;Usado;1994;112727;Motor 2.0 16v;['Controle de tração', 'Travas elétricas', 'Controle de estabilidade', 'Sensor crepuscular'];125000;São Paulo - SP;Não;dkw-836018__340.png
+Ferrari;Usado;2011;111255;Motor 1.8 16v;['4 X 4', 'Controle de tração', 'Travas elétricas', 'Teto panorâmico'];151000;Rio de Janeiro - RJ;Não;ferrari-1766283__340.png
+Bmw M3;Usado;2000;21968;Motor Diesel V8;['Teto panorâmico', 'Sensor de chuva', 'Ar condicionado', 'Câmera de estacionamento'];351000;Rio de Janeiro - RJ;Não;bmw-m3-2963683__340.png
+Tuning;Novo;2019;0;Motor Diesel V6;['Câmbio automático', 'Ar condicionado', 'Bancos de couro', 'Controle de tração'];223000;São Paulo - SP;Não;tuning-342255__340.png
+Lincoln Mkz;Novo;2019;0;Motor Diesel V6;['Bancos de couro', 'Sensor de chuva', 'Sensor de estacionamento', 'Freios ABS'];79000;São Paulo - SP;Não;lincoln-mkz-2734608__340.png
+Maserati Levante;Novo;2019;0;Motor V8;['Controle de tração', 'Sensor de estacionamento', 'Freios ABS', 'Painel digital'];252000;São Paulo - SP;Não;maserati-levante-4179430__340.png
+Rollsroyce;Usado;1991;5947;Motor 4.0 Turbo;['Central multimídia', 'Piloto automático', 'Controle de estabilidade', 'Câmbio automático'];357000;Belo Horizonte - MG;Não;rollsroyce-1464403__340.png
+Mercedes Benz;Novo;2019;0;Motor Diesel V6;['Vidros elétricos', 'Controle de tração', 'Painel digital', 'Rodas de liga'];396000;São Paulo - SP;Não;mercedes-benz-1036353__340.png
+Morgan Roadster;Usado;1999;102662;Motor 2.0 16v;['Ar condicionado', 'Travas elétricas', 'Controle de tração', 'Freios ABS'];460000;São Paulo - SP;Não;morgan-roadster-3614696__340.png
+Toyota Land Cruiser;Usado;1990;46571;Motor 2.0 16v;['Rodas de liga', '4 X 4', 'Travas elétricas', 'Câmera de estacionamento'];72000;São Paulo - SP;Não;toyota-land-cruiser-2943058__340.png
+Mercedes Benz 300 Sl;Novo;2019;0;Motor V8;['Painel digital', 'Vidros elétricos', 'Teto panorâmico', 'Sensor crepuscular'];422000;Rio de Janeiro - RJ;Não;mercedes-benz-300-sl-2523221__340.png
+Casablanca;Usado;2003;9912;Motor 5.0 V8 Bi-Turbo;['Ar condicionado', 'Freios ABS', 'Câmera de estacionamento', 'Vidros elétricos'];399000;Belo Horizonte - MG;Não;casablanca-1650772__340.png
+Bugatti;Usado;1993;81154;Motor 1.0 8v;['Freios ABS', 'Painel digital', 'Controle de estabilidade', 'Controle de tração'];455000;Rio de Janeiro - RJ;Não;bugatti-4200700__340.png
+Porsche Carrera Gt;Novo;2019;0;Motor 3.0 32v;['Sensor de estacionamento', 'Vidros elétricos', 'Piloto automático', 'Painel digital'];173000;Belo Horizonte - MG;Não;porsche-carrera-gt-3000128__340.png
+Black And White;Usado;2005;86899;Motor 2.0 16v;['Painel digital', 'Teto panorâmico', 'Sensor crepuscular', 'Rodas de liga'];340000;Belo Horizonte - MG;Não;black-and-white-1284271__340.png
+Bmw I8;Usado;1994;112579;Motor 3.0 32v;['Freios ABS', 'Ar condicionado', '4 X 4', 'Teto panorâmico'];443000;Rio de Janeiro - RJ;Não;bmw-i8-2747729__340.png
+Subaru;Usado;1995;48416;Motor Diesel;['Sensor de chuva', 'Freios ABS', '4 X 4', 'Teto panorâmico'];383000;São Paulo - SP;Não;subaru-2281266__340.png
+Amazing;Usado;2015;111613;Motor 4.0 Turbo;['Controle de estabilidade', 'Central multimídia', 'Câmera de estacionamento', 'Câmbio automático'];287000;Rio de Janeiro - RJ;Não;amazing-2369407__340.png
+Austin Healey;Usado;2003;15810;Motor Diesel;['Sensor de estacionamento', 'Teto panorâmico', 'Controle de estabilidade', 'Câmbio automático'];350000;Belo Horizonte - MG;Sim;austin-healey-1019023__340.png
+Ford;Usado;1995;115874;Motor V8;['Travas elétricas', 'Câmbio automático', 'Central multimídia', '4 X 4'];276000;São Paulo - SP;Não;ford-3858517__340.png
+Rolls Royce Wraith;Usado;2010;99918;Motor Diesel;['Freios ABS', 'Controle de estabilidade', 'Painel digital', 'Câmbio automático'];163000;São Paulo - SP;Não;rolls-royce-wraith-1063533__340.png
+Mercedes E63;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['Sensor de chuva', 'Central multimídia', 'Ar condicionado', 'Controle de estabilidade'];107000;Rio de Janeiro - RJ;Sim;mercedes-e63-2945875__340.png
+Mclaren Mp4 12C;Novo;2019;0;Motor Diesel V6;['Sensor de estacionamento', 'Central multimídia', 'Sensor crepuscular', 'Piloto automático'];173000;Belo Horizonte - MG;Sim;mclaren-mp4-12c-3169307__340.png
+Vwbeetle;Usado;1992;108055;Motor Diesel V8;['4 X 4', 'Teto panorâmico', 'Travas elétricas', 'Câmbio automático'];150000;Rio de Janeiro - RJ;Não;vwbeetle-836065__340.png
+Ferrari 360;Usado;1991;106251;Motor 5.0 V8 Bi-Turbo;['Vidros elétricos', 'Rodas de liga', 'Travas elétricas', 'Sensor de chuva'];305000;Belo Horizonte - MG;Não;ferrari-360-2918130__340.png
+Citroen;Usado;1995;13433;Motor 1.8 16v;['Piloto automático', 'Central multimídia', 'Câmera de estacionamento', 'Travas elétricas'];220000;São Paulo - SP;Não;citroen-2749247__340.png
+Ferrari 458;Usado;2000;75458;Motor 3.0 32v;['Controle de estabilidade', 'Câmbio automático', 'Painel digital', 'Bancos de couro'];176000;Belo Horizonte - MG;Não;ferrari-458-2816250__340.png
+Oldtimers;Usado;2015;41735;Motor Diesel;['Vidros elétricos', 'Ar condicionado', 'Controle de estabilidade', 'Sensor crepuscular'];201000;Belo Horizonte - MG;Não;oldtimers-770407__340.png
+Car Parts White;Usado;2003;51348;Motor 1.8 16v;['Controle de estabilidade', 'Câmera de estacionamento', 'Câmbio automático', 'Ar condicionado'];384000;Rio de Janeiro - RJ;Não;car-parts-white-365353__340.png
+Goodyear;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['Freios ABS', 'Controle de tração', 'Teto panorâmico', 'Controle de estabilidade'];111000;Rio de Janeiro - RJ;Não;goodyear-1534185__340.png
+Afterfx Custom Jeep;Usado;2017;68014;Motor Diesel;['Controle de tração', 'Travas elétricas', '4 X 4', 'Vidros elétricos'];146000;São Paulo - SP;Não;afterfx-custom-jeep-2774670__340.png
+White Luxury Car;Usado;1993;52282;Motor 2.4 Turbo;['Controle de tração', 'Ar condicionado', 'Freios ABS', 'Câmbio automático'];319000;Rio de Janeiro - RJ;Não;white-luxury-car-2663294__340.png
+Lexus Break Light;Usado;2016;100617;Motor 2.4 Turbo;['Rodas de liga', 'Freios ABS', 'Câmera de estacionamento', '4 X 4'];86000;São Paulo - SP;Não;lexus-break-light-2770377__340.png
+Ferrari California;Novo;2019;0;Motor V6;['Câmera de estacionamento', 'Rodas de liga', 'Controle de estabilidade', 'Sensor de estacionamento'];188000;Rio de Janeiro - RJ;Não;ferrari-california-3170346__340.png
+Merc;Novo;2019;0;Motor V6;['Ar condicionado', '4 X 4', 'Painel digital', 'Piloto automático'];467000;Rio de Janeiro - RJ;Não;merc-3850159__340.png
+Lexus Is F;Usado;2013;79881;Motor V8;['Teto panorâmico', '4 X 4', 'Travas elétricas', 'Sensor de chuva'];69000;São Paulo - SP;Sim;lexus-is-f-2914268__340.png
+Ford Mustang;Novo;2019;0;Motor 1.0 8v;['Controle de tração', '4 X 4', 'Vidros elétricos', 'Ar condicionado'];230000;Rio de Janeiro - RJ;Sim;ford-mustang-1162880__340.png
+Pagani Huayra;Novo;2019;0;Motor Diesel V8;['Câmbio automático', 'Freios ABS', 'Sensor de chuva', 'Sensor crepuscular'];463000;São Paulo - SP;Não;pagani-huayra-780059__340.png
+Fiat;Usado;2003;90354;Motor V6;['Sensor crepuscular', 'Piloto automático', 'Câmera de estacionamento', 'Painel digital'];440000;São Paulo - SP;Não;fiat-2611853__340.png
+Houston;Usado;1995;48876;Motor V8;['4 X 4', 'Rodas de liga', 'Teto panorâmico', 'Controle de tração'];58000;Rio de Janeiro - RJ;Não;houston-3288450__340.png
+Lexus;Usado;2006;43186;Motor Diesel V6;['Sensor crepuscular', 'Bancos de couro', 'Piloto automático', 'Freios ABS'];475000;Belo Horizonte - MG;Sim;lexus-1938299__340.png
+Spain;Usado;2007;66296;Motor 1.0 8v;['Central multimídia', 'Freios ABS', 'Sensor de chuva', 'Controle de estabilidade'];133000;São Paulo - SP;Sim;spain-2431682__340.png
+Borgward;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['Vidros elétricos', 'Controle de estabilidade', 'Piloto automático', 'Sensor crepuscular'];322000;São Paulo - SP;Não;borgward-2824280__340.png
+Spokes;Usado;2016;72469;Motor 4.0 Turbo;['Câmbio automático', 'Freios ABS', 'Travas elétricas', 'Controle de tração'];138000;Belo Horizonte - MG;Não;spokes-1537965__340.png
+Muscle Car;Usado;1991;107498;Motor Diesel V8;['Sensor de chuva', 'Teto panorâmico', 'Freios ABS', 'Controle de estabilidade'];413000;São Paulo - SP;Não;muscle-car-1130607__340.png
+Mclaren 650S;Usado;1996;76244;Motor 4.0 Turbo;['Rodas de liga', 'Freios ABS', 'Controle de tração', 'Sensor de estacionamento'];483000;Rio de Janeiro - RJ;Não;mclaren-650s-2976031__340.png
+Spyker C8;Usado;2001;22527;Motor 2.4 Turbo;['Bancos de couro', 'Câmbio automático', 'Travas elétricas', 'Teto panorâmico'];223000;São Paulo - SP;Não;spyker-c8-2934067__340.png
+Boxster;Usado;2005;66836;Motor Diesel V6;['4 X 4', 'Câmbio automático', 'Painel digital', 'Piloto automático'];126000;São Paulo - SP;Não;boxster-1771886__340.png
+Aston Martin Shooting Brake Zagato;Usado;2007;22225;Motor Diesel V8;['Teto panorâmico', 'Controle de estabilidade', 'Sensor de chuva', 'Sensor crepuscular'];354000;Belo Horizonte - MG;Não;aston-martin-shooting-brake-zagato-4345303__340.png
+Porsche 911;Usado;2007;97778;Motor V8;['Central multimídia', '4 X 4', 'Bancos de couro', 'Controle de estabilidade'];132000;Rio de Janeiro - RJ;Não;porsche-911-2930668__340.png
+Aston Martin Db11;Usado;1995;95124;Motor 1.0 8v;['Central multimídia', 'Bancos de couro', 'Sensor crepuscular', 'Sensor de estacionamento'];201000;São Paulo - SP;Não;aston-martin-db11-2977862__340.png
+Kahului;Novo;2019;0;Motor V8;['Rodas de liga', 'Teto panorâmico', 'Sensor de chuva', 'Painel digital'];58000;São Paulo - SP;Não;kahului-81951__340.png
+Daimler;Usado;1997;76354;Motor Diesel;['Piloto automático', 'Câmera de estacionamento', 'Câmbio automático', 'Sensor crepuscular'];159000;Belo Horizonte - MG;Não;daimler-1354963__340.png
+Red Car;Usado;1993;11015;Motor 1.0 8v;['Sensor de estacionamento', 'Bancos de couro', 'Sensor de chuva', 'Teto panorâmico'];167000;Rio de Janeiro - RJ;Não;red-car-2675961__340.png
+Porsche;Usado;1990;9856;Motor 3.0 32v;['Controle de estabilidade', 'Teto panorâmico', 'Freios ABS', '4 X 4'];249000;Belo Horizonte - MG;Não;porsche-1408486__340.png
+Asphalt;Novo;2019;0;Motor 2.0 16v;['Rodas de liga', 'Freios ABS', 'Controle de tração', 'Bancos de couro'];402000;Rio de Janeiro - RJ;Não;asphalt-1853590__340.png
+Aston Martin Vantage;Usado;2018;76558;Motor 1.8 16v;['Painel digital', 'Freios ABS', 'Controle de estabilidade', 'Sensor de chuva'];393000;Rio de Janeiro - RJ;Sim;aston-martin-vantage-2930663__340.png
+Porsche Turbo;Usado;1993;23418;Motor 1.0 8v;['Travas elétricas', 'Sensor de chuva', 'Piloto automático', '4 X 4'];332000;Rio de Janeiro - RJ;Não;porsche-turbo-2934071__340.png
+Reo;Novo;2019;0;Motor 1.8 16v;['Sensor de estacionamento', 'Painel digital', 'Bancos de couro', 'Sensor de chuva'];472000;Belo Horizonte - MG;Não;reo-836008__340.png
+Cobra;Novo;2019;0;Motor 2.4 Turbo;['Teto panorâmico', 'Sensor de chuva', 'Câmbio automático', 'Piloto automático'];442000;São Paulo - SP;Não;cobra-3890772__340.png
+Suv;Novo;2019;0;Motor 1.0 8v;['Freios ABS', 'Bancos de couro', 'Sensor de estacionamento', 'Controle de tração'];108000;Belo Horizonte - MG;Não;suv-29064__340.png
+Jeep;Usado;1990;68534;Motor 2.4 Turbo;['Controle de estabilidade', '4 X 4', 'Central multimídia', 'Controle de tração'];471000;Rio de Janeiro - RJ;Não;jeep-4129936__340.png
+Classic Car;Novo;2019;0;Motor Diesel V8;['Câmbio automático', '4 X 4', 'Sensor de estacionamento', 'Ar condicionado'];210000;Belo Horizonte - MG;Não;classic-car-1142419__340.png
+Tea;Usado;2014;115936;Motor 2.4 Turbo;['Câmera de estacionamento', 'Vidros elétricos', 'Painel digital', 'Central multimídia'];332000;Belo Horizonte - MG;Não;tea-2005492__340.png
+Traffic;Novo;2019;0;Motor 3.0 32v;['Controle de tração', 'Vidros elétricos', 'Bancos de couro', 'Painel digital'];113000;Rio de Janeiro - RJ;Não;traffic-3545794__340.png
+Mercedes Benz 600Se Luxury Sedan;Usado;1997;80168;Motor 2.0 16v;['Sensor de estacionamento', 'Freios ABS', 'Teto panorâmico', 'Sensor de chuva'];172000;Belo Horizonte - MG;Não;mercedes-benz-600se-luxury-sedan-3378356__340.png
+Pkw;Novo;2019;0;Motor Diesel;['Travas elétricas', 'Teto panorâmico', 'Rodas de liga', 'Ar condicionado'];180000;São Paulo - SP;Não;pkw-1648409__340.png
+Mercedes Slk55;Novo;2019;0;Motor Diesel V6;['Rodas de liga', 'Câmera de estacionamento', '4 X 4', 'Piloto automático'];498000;Rio de Janeiro - RJ;Não;mercedes-slk55-2975679__340.png
+Luxury Car;Usado;2015;72680;Motor Diesel;['4 X 4', 'Sensor de estacionamento', 'Vidros elétricos', 'Teto panorâmico'];142000;Rio de Janeiro - RJ;Não;luxury-car-1023777__340.png
+Mercedes Sl300;Usado;1994;16192;Motor 2.4 Turbo;['Freios ABS', 'Câmbio automático', 'Sensor de chuva', 'Câmera de estacionamento'];121000;São Paulo - SP;Sim;mercedes-sl300-2805856__340.png
+Redjawa;Usado;1992;85309;Motor 2.0 16v;['Piloto automático', 'Controle de tração', 'Central multimídia', 'Ar condicionado'];432000;São Paulo - SP;Não;redjawa-836003__340.png
+Mini;Usado;2000;86019;Motor V8;['Rodas de liga', 'Câmera de estacionamento', 'Central multimídia', 'Controle de estabilidade'];297000;Belo Horizonte - MG;Não;mini-986756__340.png
+Hummer;Usado;2010;64634;Motor 1.0 8v;['Ar condicionado', 'Sensor de chuva', 'Sensor de estacionamento', 'Câmbio automático'];160000;Belo Horizonte - MG;Não;hummer-1180325__340.png
+Fire;Novo;2019;0;Motor Diesel V6;['Travas elétricas', 'Vidros elétricos', 'Rodas de liga', 'Sensor crepuscular'];191000;São Paulo - SP;Sim;fire-1345607__340.png
+Ferrari 348;Usado;2013;44072;Motor 5.0 V8 Bi-Turbo;['Teto panorâmico', 'Sensor de estacionamento', '4 X 4', 'Rodas de liga'];321000;Belo Horizonte - MG;Não;ferrari-348-2927398__340.png
+Ferrari Enzo;Usado;1994;111311;Motor V8;['Sensor crepuscular', 'Câmbio automático', 'Sensor de estacionamento', 'Freios ABS'];342000;Rio de Janeiro - RJ;Sim;ferrari-enzo-2747730__340.png
+Alloy;Usado;1995;58944;Motor 1.8 16v;['Rodas de liga', 'Painel digital', 'Central multimídia', 'Freios ABS'];131000;São Paulo - SP;Não;alloy-1834272__340.png
+Sport Car;Novo;2019;0;Motor V8;['Ar condicionado', 'Central multimídia', 'Sensor de chuva', 'Teto panorâmico'];102000;São Paulo - SP;Não;sport-car-332800__340.png
+Cuba;Usado;1992;62255;Motor Diesel;['Vidros elétricos', 'Controle de tração', 'Piloto automático', 'Teto panorâmico'];422000;Rio de Janeiro - RJ;Não;cuba-2390256__340.png
+Ferrari F12;Usado;2008;65143;Motor Diesel V6;['Freios ABS', 'Rodas de liga', 'Travas elétricas', 'Sensor de chuva'];482000;São Paulo - SP;Não;ferrari-f12-2747342__340.png
+Acura Rear;Usado;2007;33343;Motor 2.0 16v;['Teto panorâmico', 'Painel digital', 'Travas elétricas', 'Controle de estabilidade'];229000;Belo Horizonte - MG;Não;acura-rear-2834133__340.png
+Mercedes Benz Slr;Usado;1998;66074;Motor Diesel V8;['Controle de tração', 'Câmera de estacionamento', 'Central multimídia', 'Travas elétricas'];61000;São Paulo - SP;Não;mercedes-benz-slr-2925433__340.png
+Cadillac;Usado;2001;90123;Motor V8;['Central multimídia', '4 X 4', 'Piloto automático', 'Vidros elétricos'];491000;Belo Horizonte - MG;Não;cadillac-1142415__340.png
+Ford Gt40;Usado;2009;118844;Motor 2.4 Turbo;['Central multimídia', 'Teto panorâmico', 'Painel digital', 'Bancos de couro'];340000;São Paulo - SP;Não;ford-gt40-2925431__340.png
+Hotrod Truck;Usado;2018;73321;Motor V6;['Ar condicionado', 'Rodas de liga', 'Painel digital', 'Controle de estabilidade'];384000;São Paulo - SP;Não;hotrod-truck-4330778__340.png
+Classic Cars;Usado;2006;7306;Motor 1.0 8v;['Travas elétricas', 'Central multimídia', '4 X 4', 'Rodas de liga'];81000;Belo Horizonte - MG;Não;classic-cars-2724161__340.png
+Bmw Glas V8 Coupe;Usado;1991;85498;Motor Diesel;['Travas elétricas', 'Ar condicionado', 'Piloto automático', 'Central multimídia'];429000;Belo Horizonte - MG;Não;bmw-glas-v8-coupe-3128825__340.png
+Peugeot;Usado;2017;17022;Motor 2.0 16v;['Rodas de liga', 'Teto panorâmico', 'Câmera de estacionamento', 'Painel digital'];384000;Belo Horizonte - MG;Não;peugeot-836064__340.png
+Jaguar Car;Novo;2019;0;Motor 3.0 32v;['Piloto automático', '4 X 4', 'Freios ABS', 'Travas elétricas'];318000;Rio de Janeiro - RJ;Não;jaguar-car-1035998__340.png
+Cobra Sports Car;Usado;2008;112215;Motor 2.4 Turbo;['Travas elétricas', 'Painel digital', 'Teto panorâmico', 'Central multimídia'];326000;Belo Horizonte - MG;Não;cobra-sports-car-475981__340.png
+Stretch Limousine;Usado;2009;53225;Motor Diesel;['Controle de estabilidade', 'Teto panorâmico', 'Bancos de couro', 'Ar condicionado'];447000;Rio de Janeiro - RJ;Não;stretch-limousine-2714963__340.png
+Ferrari Car;Usado;2002;86124;Motor Diesel;['Teto panorâmico', 'Câmbio automático', 'Central multimídia', 'Travas elétricas'];87000;São Paulo - SP;Não;ferrari-car-3664453__340.png
+Mercurydl;Usado;1997;108631;Motor Diesel V8;['Sensor de estacionamento', 'Freios ABS', 'Controle de tração', 'Câmera de estacionamento'];182000;Belo Horizonte - MG;Não;mercurydl-836040__340.png
+Maserati;Novo;2019;0;Motor 1.0 8v;['Câmbio automático', 'Sensor crepuscular', 'Central multimídia', 'Vidros elétricos'];212000;Belo Horizonte - MG;Não;maserati-1463877__340.png
+Mercedes C63 Engine;Usado;1995;89724;Motor V6;['Vidros elétricos', 'Câmera de estacionamento', 'Sensor de chuva', 'Teto panorâmico'];253000;São Paulo - SP;Sim;mercedes-c63-engine-2994993__340.png
+Coupe;Usado;2001;116767;Motor 3.0 32v;['Sensor de chuva', 'Câmera de estacionamento', 'Teto panorâmico', 'Vidros elétricos'];246000;São Paulo - SP;Não;coupe-1374436__340.png
+Gt;Usado;2016;38803;Motor 4.0 Turbo;['Vidros elétricos', 'Sensor crepuscular', 'Freios ABS', 'Ar condicionado'];364000;São Paulo - SP;Não;gt-687815__340.png
+Renault;Usado;1991;101983;Motor 5.0 V8 Bi-Turbo;['Câmbio automático', 'Sensor crepuscular', 'Rodas de liga', 'Sensor de chuva'];434000;São Paulo - SP;Não;renault-4211424__340.png
+Fiat 130;Usado;2010;11257;Motor 5.0 V8 Bi-Turbo;['Sensor crepuscular', 'Travas elétricas', 'Central multimídia', '4 X 4'];493000;Rio de Janeiro - RJ;Sim;fiat-130-2936755__340.png
+Vintage Cars;Usado;2004;47972;Motor 1.8 16v;['Câmera de estacionamento', 'Ar condicionado', 'Freios ABS', 'Piloto automático'];303000;São Paulo - SP;Não;vintage-cars-1678580__340.png
+Nissan Gtr;Usado;1995;61740;Motor Diesel;['Freios ABS', 'Sensor de estacionamento', 'Sensor de chuva', 'Piloto automático'];363000;Rio de Janeiro - RJ;Não;nissan-gtr-2975651__340.png
+Mercedes Sls;Usado;2004;41278;Motor 3.0 32v;['Freios ABS', 'Sensor de estacionamento', 'Controle de tração', 'Sensor de chuva'];180000;Rio de Janeiro - RJ;Não;mercedes-sls-1412863__340.png
+Luxury Automobile;Novo;2019;0;Motor V8;['Teto panorâmico', 'Central multimídia', 'Ar condicionado', 'Sensor de estacionamento'];175000;Belo Horizonte - MG;Não;luxury-automobile-678394__340.png
+Kia Car;Usado;2017;95496;Motor 4.0 Turbo;['Controle de tração', 'Painel digital', 'Teto panorâmico', 'Freios ABS'];455000;Rio de Janeiro - RJ;Sim;kia-car-2773255__340.png
+Tangerine Lamborghini;Usado;2003;100107;Motor V8;['Câmera de estacionamento', 'Freios ABS', 'Painel digital', 'Câmbio automático'];296000;São Paulo - SP;Não;tangerine-lamborghini-2876941__340.png
+Classic Taillight;Usado;2015;39240;Motor 4.0 Turbo;['Vidros elétricos', 'Painel digital', 'Freios ABS', 'Sensor crepuscular'];363000;Belo Horizonte - MG;Não;classic-taillight-3022758__340.png
+Wiesmann Gt Mf4;Usado;1994;82228;Motor 2.0 16v;['Câmera de estacionamento', 'Freios ABS', 'Controle de estabilidade', 'Painel digital'];217000;Rio de Janeiro - RJ;Não;wiesmann-gt-mf4-2869569__340.png
+Gmc Yukon;Usado;2017;24757;Motor 5.0 V8 Bi-Turbo;['Sensor de estacionamento', 'Rodas de liga', 'Câmera de estacionamento', 'Central multimídia'];51000;São Paulo - SP;Não;gmc-yukon-2831791__340.png
+Porsche 918 Spyder;Usado;2015;70486;Motor Diesel V6;['Travas elétricas', 'Painel digital', 'Rodas de liga', 'Câmera de estacionamento'];109000;São Paulo - SP;Não;porsche-918-spyder-2462278__340.png
+T1;Novo;2019;0;Motor 1.0 8v;['Sensor de estacionamento', 'Painel digital', 'Controle de tração', 'Rodas de liga'];189000;São Paulo - SP;Não;t1-3632103__340.png
+Mercedes Benz 280S;Usado;2000;108914;Motor 2.4 Turbo;['Ar condicionado', 'Câmera de estacionamento', 'Painel digital', 'Travas elétricas'];110000;São Paulo - SP;Não;mercedes-benz-280s-3374758__340.png
+Lincoln;Usado;2004;90412;Motor 1.8 16v;['Controle de tração', 'Sensor de estacionamento', 'Ar condicionado', 'Painel digital'];321000;Rio de Janeiro - RJ;Não;lincoln-4212833__340.png
+Black Suv;Novo;2019;0;Motor Diesel V8;['Câmbio automático', 'Travas elétricas', 'Vidros elétricos', '4 X 4'];275000;Rio de Janeiro - RJ;Sim;black-suv-2773264__340.png
+Desoto;Usado;2015;4561;Motor Diesel;['4 X 4', 'Controle de tração', 'Controle de estabilidade', 'Câmbio automático'];261000;São Paulo - SP;Não;desoto-836021__340.png
+Chevrolet;Usado;1992;108884;Motor 2.4 Turbo;['Central multimídia', '4 X 4', 'Painel digital', 'Sensor de estacionamento'];173000;Rio de Janeiro - RJ;Não;chevrolet-836044__340.png
+Volvo;Novo;2019;0;Motor V6;['Central multimídia', 'Piloto automático', 'Rodas de liga', 'Controle de estabilidade'];303000;Rio de Janeiro - RJ;Sim;volvo-3731469__340.png
+Koenigsegg Ccr;Usado;1993;47501;Motor V8;['Sensor de estacionamento', 'Ar condicionado', 'Teto panorâmico', 'Sensor crepuscular'];264000;Rio de Janeiro - RJ;Não;koenigsegg-ccr-2086629__340.png
+Lamborghini Murcielago Sv;Usado;2005;96423;Motor Diesel V6;['Câmbio automático', 'Freios ABS', 'Bancos de couro', 'Painel digital'];323000;São Paulo - SP;Não;lamborghini-murcielago-sv-2872980__340.png
+Opel Diplomat;Usado;1992;50436;Motor Diesel V8;['Controle de tração', 'Vidros elétricos', 'Rodas de liga', 'Sensor de estacionamento'];244000;Rio de Janeiro - RJ;Não;opel-diplomat-4267367__340.png
+Rolls Royce;Novo;2019;0;Motor Diesel V6;['Controle de estabilidade', 'Controle de tração', 'Sensor de chuva', 'Vidros elétricos'];350000;Belo Horizonte - MG;Não;rolls-royce-1115993__340.png
+Ferrari F430 Spider;Usado;1993;9245;Motor V8;['Painel digital', 'Bancos de couro', 'Freios ABS', 'Controle de tração'];316000;São Paulo - SP;Não;ferrari-f430-spider-2994994__340.png
+Sheavy;Usado;1997;16528;Motor V6;['Teto panorâmico', '4 X 4', 'Painel digital', 'Sensor de chuva'];352000;Belo Horizonte - MG;Sim;sheavy-1773311__340.png
+Auto Detail;Usado;2011;119240;Motor 4.0 Turbo;['4 X 4', 'Controle de estabilidade', 'Câmera de estacionamento', 'Travas elétricas'];291000;São Paulo - SP;Não;auto-detail-2687868__340.png
+Alfa Romeo;Novo;2019;0;Motor 2.0 16v;['Câmbio automático', 'Bancos de couro', 'Controle de tração', 'Painel digital'];98000;Belo Horizonte - MG;Sim;alfa-romeo-1548120__340.png
+Lamborghini Huracan;Usado;1991;80719;Motor Diesel V8;['Sensor crepuscular', 'Câmbio automático', 'Controle de tração', 'Central multimídia'];218000;São Paulo - SP;Não;lamborghini-huracan-2932195__340.png
+Morgan Plus 8;Usado;2010;113873;Motor Diesel;['Central multimídia', 'Painel digital', 'Controle de estabilidade', 'Travas elétricas'];218000;São Paulo - SP;Não;morgan-plus-8-2851110__340.png
+Bmw M4;Usado;1995;91022;Motor Diesel V6;['Sensor de estacionamento', 'Vidros elétricos', 'Controle de estabilidade', 'Ar condicionado'];387000;Belo Horizonte - MG;Não;bmw-m4-2964071__340.png
+Cold;Usado;2002;50166;Motor 1.0 8v;['Câmbio automático', 'Vidros elétricos', 'Câmera de estacionamento', 'Controle de tração'];105000;Belo Horizonte - MG;Sim;cold-3378044__340.png
+C63;Usado;1994;59885;Motor 2.0 16v;['Sensor de chuva', 'Controle de tração', 'Sensor de estacionamento', 'Câmbio automático'];170000;Belo Horizonte - MG;Não;c63-1653815__340.png
+Custom Rims;Usado;1994;15292;Motor 4.0 Turbo;['Controle de tração', '4 X 4', 'Vidros elétricos', 'Sensor de chuva'];490000;Belo Horizonte - MG;Não;custom-rims-2828413__340.png
+Mercedes Benz S Class;Usado;2003;23426;Motor 2.0 16v;['Controle de tração', 'Sensor crepuscular', 'Piloto automático', 'Sensor de estacionamento'];152000;Rio de Janeiro - RJ;Não;mercedes-benz-s-class-3378362__340.png
+Adam Opel Ag;Novo;2019;0;Motor 1.0 8v;['Sensor crepuscular', 'Sensor de estacionamento', 'Travas elétricas', 'Sensor de chuva'];480000;São Paulo - SP;Não;adam-opel-ag-2936765__340.png
+Spotlight;Usado;2000;81779;Motor 4.0 Turbo;['Rodas de liga', 'Controle de tração', 'Bancos de couro', 'Vidros elétricos'];381000;Rio de Janeiro - RJ;Não;spotlight-1843472__340.png
+Lotus;Usado;1995;45004;Motor Diesel V6;['Travas elétricas', 'Freios ABS', 'Bancos de couro', 'Câmbio automático'];468000;São Paulo - SP;Sim;lotus-3695433__340.png
+Sports Car;Novo;2019;0;Motor 1.8 16v;['Travas elétricas', 'Rodas de liga', 'Bancos de couro', 'Central multimídia'];54000;Rio de Janeiro - RJ;Não;sports-car-1185521__340.png
+Restored;Usado;2002;84771;Motor 5.0 V8 Bi-Turbo;['Teto panorâmico', 'Câmbio automático', 'Controle de estabilidade', 'Vidros elétricos'];304000;São Paulo - SP;Não;restored-3326410__340.png
+Ferrari F430;Usado;2005;57973;Motor 1.0 8v;['Sensor de chuva', 'Rodas de liga', 'Controle de tração', 'Ar condicionado'];372000;Rio de Janeiro - RJ;Não;ferrari-f430-2923843__340.png
+Classic Mercedes;Usado;2014;86577;Motor 1.0 8v;['Vidros elétricos', 'Bancos de couro', 'Controle de estabilidade', 'Freios ABS'];357000;Belo Horizonte - MG;Não;classic-mercedes-2091847__340.png
+Mercedes;Usado;2002;25150;Motor V6;['Central multimídia', 'Ar condicionado', 'Vidros elétricos', 'Painel digital'];333000;Rio de Janeiro - RJ;Não;mercedes-1079169__340.png
+Speedo;Usado;2010;44165;Motor 1.0 8v;['Vidros elétricos', 'Sensor de chuva', 'Sensor crepuscular', 'Ar condicionado'];153000;Belo Horizonte - MG;Não;speedo-2653525__340.png
+Porsche Targa;Usado;2005;102500;Motor 1.8 16v;['Teto panorâmico', 'Câmbio automático', 'Sensor crepuscular', 'Controle de estabilidade'];318000;Belo Horizonte - MG;Não;porsche-targa-1410900__340.png
+Ferrari 308 Gt4;Usado;1999;90403;Motor 4.0 Turbo;['Bancos de couro', 'Ar condicionado', 'Travas elétricas', 'Controle de tração'];125000;Belo Horizonte - MG;Não;ferrari-308-gt4-3546785__340.png
+Mercedes Benz 600;Usado;2015;69171;Motor Diesel;['Piloto automático', 'Central multimídia', 'Painel digital', 'Rodas de liga'];373000;Rio de Janeiro - RJ;Não;mercedes-benz-600-2634346__340.png
+Packard Super 8;Usado;2004;4476;Motor Diesel V6;['Rodas de liga', 'Teto panorâmico', 'Câmbio automático', 'Bancos de couro'];81000;Belo Horizonte - MG;Não;packard-super-8-3797938__340.png
+Bentley Mulsanne;Usado;2004;61712;Motor Diesel V6;['4 X 4', 'Central multimídia', 'Travas elétricas', 'Painel digital'];464000;Belo Horizonte - MG;Sim;bentley-mulsanne-3169363__340.png
+Jaguar Xk;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['4 X 4', 'Teto panorâmico', 'Sensor de chuva', 'Controle de tração'];201000;Belo Horizonte - MG;Não;jaguar-xk-1409324__340.png
+Plymouth;Usado;1999;2388;Motor V6;['4 X 4', 'Controle de estabilidade', 'Freios ABS', 'Sensor de estacionamento'];222000;São Paulo - SP;Sim;plymouth-836022__340.png
+Porsche 911 Gt3;Usado;2009;86538;Motor Diesel V6;['4 X 4', 'Sensor de chuva', 'Rodas de liga', 'Central multimídia'];376000;Rio de Janeiro - RJ;Não;porsche-911-gt3-2865400__340.png
+Merces;Usado;2014;11328;Motor V8;['Travas elétricas', 'Freios ABS', 'Controle de tração', 'Controle de estabilidade'];112000;São Paulo - SP;Não;merces-4018433__340.png
+Thirties;Usado;2006;93564;Motor Diesel;['Sensor de estacionamento', 'Câmbio automático', 'Piloto automático', 'Ar condicionado'];338000;Rio de Janeiro - RJ;Não;thirties-3474879__340.png
+Porsche 911 Turbo;Usado;1996;106598;Motor 1.8 16v;['Controle de tração', 'Sensor crepuscular', 'Vidros elétricos', 'Painel digital'];338000;São Paulo - SP;Não;porsche-911-turbo-2933964__340.png
+Skoda;Usado;1994;77208;Motor V8;['Controle de estabilidade', 'Rodas de liga', 'Ar condicionado', 'Câmbio automático'];198000;Belo Horizonte - MG;Não;skoda-835994__340.png
+Volkswagen;Usado;2017;64852;Motor Diesel V8;['Câmera de estacionamento', 'Central multimídia', 'Travas elétricas', 'Câmbio automático'];155000;Belo Horizonte - MG;Sim;volkswagen-836062__340.png
+Gmc Yukon Truck Wheel;Usado;2001;70878;Motor 1.0 8v;['Sensor de estacionamento', 'Ar condicionado', 'Vidros elétricos', 'Câmbio automático'];273000;Rio de Janeiro - RJ;Não;gmc-yukon-truck-wheel-2831790__340.png
+Pantera;Novo;2019;0;Motor Diesel;['Freios ABS', 'Controle de estabilidade', 'Travas elétricas', 'Câmera de estacionamento'];63000;São Paulo - SP;Não;pantera-3543075__340.png
+Honda;Usado;2009;64735;Motor Diesel V8;['Câmbio automático', 'Vidros elétricos', 'Sensor de estacionamento', '4 X 4'];448000;São Paulo - SP;Não;honda-1277981__340.png
+Mercedes Amg Gts;Usado;2009;59305;Motor Diesel V6;['Freios ABS', 'Sensor de estacionamento', 'Rodas de liga', 'Câmera de estacionamento'];376000;Belo Horizonte - MG;Não;mercedes-amg-gts-2925430__340.png
+Limo;Usado;1990;92448;Motor V6;['Controle de estabilidade', 'Câmbio automático', 'Ar condicionado', 'Central multimídia'];353000;Belo Horizonte - MG;Não;limo-327350__340.png
+Bmw;Usado;2015;21275;Motor Diesel V6;['Controle de tração', 'Travas elétricas', 'Rodas de liga', 'Central multimídia'];90000;Belo Horizonte - MG;Não;bmw-1274292__340.png
+Ferrari 288 Gto;Usado;1994;86170;Motor V6;['Piloto automático', 'Sensor de estacionamento', 'Sensor crepuscular', 'Rodas de liga'];468000;Rio de Janeiro - RJ;Não;ferrari-288-gto-2927377__340.png
+Audi Rs7;Usado;2014;117197;Motor 3.0 32v;['Piloto automático', 'Controle de estabilidade', 'Sensor de estacionamento', 'Sensor de chuva'];415000;São Paulo - SP;Não;audi-rs7-1548133__340.png
+Seat Leon;Usado;1995;30961;Motor 2.0 16v;['Sensor de chuva', 'Câmbio automático', 'Freios ABS', '4 X 4'];331000;Belo Horizonte - MG;Sim;seat-leon-2634168__340.png
+Mercedes Benz Sls;Usado;1991;97949;Motor Diesel V8;['Freios ABS', 'Rodas de liga', 'Câmbio automático', 'Painel digital'];237000;Rio de Janeiro - RJ;Sim;mercedes-benz-sls-3070379__340.png
+Lagonda;Usado;2016;18870;Motor 2.0 16v;['Câmera de estacionamento', 'Rodas de liga', 'Painel digital', 'Sensor de estacionamento'];88000;Rio de Janeiro - RJ;Não;lagonda-836002__340.png
+Antique Car;Usado;2014;114136;Motor Diesel;['Central multimídia', 'Sensor de estacionamento', 'Controle de tração', 'Câmbio automático'];312000;Belo Horizonte - MG;Não;antique-car-2470941__340.png
+Audi A5;Novo;2019;0;Motor V6;['Câmera de estacionamento', 'Sensor de chuva', 'Vidros elétricos', 'Sensor de estacionamento'];240000;Rio de Janeiro - RJ;Não;audi-a5-1047604__340.png
+Cougar Xr;Novo;2019;0;Motor 1.8 16v;['Sensor crepuscular', 'Controle de estabilidade', 'Rodas de liga', 'Teto panorâmico'];215000;São Paulo - SP;Sim;cougar-xr-3597691__340.png
+Jaguar;Usado;1991;117377;Motor V6;['Teto panorâmico', 'Ar condicionado', 'Vidros elétricos', 'Bancos de couro'];492000;Belo Horizonte - MG;Não;jaguar-1104865__340.png
+White Lamborghini;Novo;2019;0;Motor Diesel;['Controle de tração', 'Câmbio automático', 'Câmera de estacionamento', 'Sensor de estacionamento'];172000;São Paulo - SP;Sim;white-lamborghini-2876940__340.png
+Corvette Yellow;Novo;2019;0;Motor 5.0 V8 Bi-Turbo;['Bancos de couro', 'Rodas de liga', 'Sensor de chuva', 'Central multimídia'];496000;São Paulo - SP;Não;corvette-yellow-251644__340.png
+Houston Fire Department;Usado;2010;112389;Motor 5.0 V8 Bi-Turbo;['Ar condicionado', 'Travas elétricas', 'Controle de tração', '4 X 4'];334000;Rio de Janeiro - RJ;Não;houston-fire-department-3230228__340.png
+Aston Martin Dbs;Usado;2010;15193;Motor V8;['Ar condicionado', 'Vidros elétricos', 'Câmbio automático', 'Sensor de estacionamento'];331000;Belo Horizonte - MG;Não;aston-martin-dbs-2997748__340.png
+Amg;Novo;2019;0;Motor 4.0 Turbo;['Freios ABS', 'Piloto automático', 'Sensor crepuscular', 'Vidros elétricos'];381000;São Paulo - SP;Não;amg-4077982__340.png
+Lamborghini Diablo;Novo;2019;0;Motor 2.4 Turbo;['Ar condicionado', 'Sensor de estacionamento', 'Controle de estabilidade', 'Painel digital'];362000;São Paulo - SP;Não;lamborghini-diablo-2927409__340.png
+Trippelwagen;Novo;2019;0;Motor 2.0 16v;['Sensor de chuva', 'Ar condicionado', 'Teto panorâmico', 'Sensor de estacionamento'];281000;Rio de Janeiro - RJ;Não;trippelwagen-836006__340.png
+Bentz;Novo;2019;0;Motor 2.4 Turbo;['Freios ABS', 'Ar condicionado', 'Travas elétricas', 'Câmbio automático'];308000;São Paulo - SP;Não;bentz-87336__340.png
+Luxury Sports Car;Novo;2019;0;Motor 3.0 32v;['Piloto automático', 'Controle de estabilidade', 'Câmera de estacionamento', '4 X 4'];268000;Rio de Janeiro - RJ;Não;luxury-sports-car-1043627__340.png
+Convertible;Usado;2008;42427;Motor V8;['Rodas de liga', 'Freios ABS', 'Câmera de estacionamento', 'Travas elétricas'];192000;Rio de Janeiro - RJ;Sim;convertible-240140__340.png
+Rolland Pilain;Usado;2006;15128;Motor 1.8 16v;['Painel digital', 'Câmbio automático', 'Sensor crepuscular', 'Rodas de liga'];432000;São Paulo - SP;Não;rolland-pilain-4259794__340.png
+Suv Rear Tire;Usado;1998;74292;Motor 3.0 32v;['Câmera de estacionamento', 'Rodas de liga', 'Sensor de estacionamento', 'Vidros elétricos'];489000;São Paulo - SP;Não;suv-rear-tire-2773267__340.png
+Antique;Novo;2019;0;Motor 2.0 16v;['Bancos de couro', 'Freios ABS', 'Sensor de estacionamento', 'Teto panorâmico'];427000;Belo Horizonte - MG;Não;antique-16040__340.png
+Sport;Usado;2001;102776;Motor 2.0 16v;['Sensor crepuscular', 'Sensor de chuva', 'Vidros elétricos', 'Travas elétricas'];203000;Belo Horizonte - MG;Não;sport-1634268__340.png
+Imperial;Usado;2011;101787;Motor 1.8 16v;['Painel digital', 'Travas elétricas', 'Sensor de chuva', 'Ar condicionado'];474000;Belo Horizonte - MG;Sim;imperial-4259819__340.png
+Kia Sports Car;Usado;2001;88564;Motor 3.0 32v;['Sensor crepuscular', 'Bancos de couro', 'Sensor de estacionamento', 'Travas elétricas'];366000;Belo Horizonte - MG;Não;kia-sports-car-2773258__340.png

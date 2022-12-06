@@ -1,0 +1,42 @@
+            estrutura de diretórios
+
+! => itens mais utilizados
+
+/lib
+/media
+    geralmente usado para montar mídias removíveis como cds, pendrives
+    não é essêncial ao sistema, mas remover pode causar erros em aplicações
+/proc
+    informações do hardware da máquina (cpu, gpu, memória)
+/srv
+/usr
+/var !
+    onde ficam os arquivos variáveis, dinâmicos
+    logs são arquivos dinâmicos
+    /var/log => normalmente tem os logs de todos os serviços e do próprio s.o.
+/tmp !
+    diretório temporário; utilizado para criar/modificar/copiar arquivos
+/mnt
+    geralmente usado para montar outros arquivos de sistema, por um curto período de tempo
+    não é essêncial ao sistema, mas remover pode causar erros em aplicações
+/opt !
+    softwares instalados, complementares (não nativos), normalmente ficam instalados neste diretório
+/etc !
+    principal pasta do linux
+    arquivos de configurações do sistema ou de softwares
+/bin !
+    arquivos binários do linux
+    todo comando executado no linux é um binário
+    comandos que qualquer usuário pode executar
+/sbin
+    comandos que exigem privilégio de administrador
+/boot
+    arquivos de configuração de boot da máquina
+/dev
+    diretório de montagem de dispositivos
+    contém arquivos especiais que correspondem ao dispositivos físicos ou componentes de sistemas
+    essêncial p/ o sistema e não pode ser removido
+/home !
+    diretório dos usuários
+/root
+    diretório usuário root

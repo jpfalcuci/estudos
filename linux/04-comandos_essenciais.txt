@@ -1,0 +1,39 @@
+            comandos essenciais
+
+man         mostra um manual de um comando
+pdw         mostra o diretório atual
+cd          acessar um diretório
+ls          lista o conteúdo de um diretório
+mkdir       cria um diretório
+touch       altera a data de criação de um arquivo
+rm          apaga arquivos
+mv          move e renomeia
+cp          copiar arquivos
+find        procura arquivos no linux
+clear       limpa a tela
+
+yum/dnf/apt     instala pacotes no linux
+service         gerencia serviço (start, stop, status)
+tail            exibe as últimas linhas de um arquivo
+cat             visualiza um arquivo
+
+du          mostra o tamanho da pasta
+df          mostra a utilização da pasta
+useradd     cria um usuário
+passwd      altera a senha de um usuário
+userdel     remove um usuário
+su          acessa um usuário
+sudo        executa um comando com elevação de privilégios
+
+data        exibe data e hora
+fdisk       gerenciar disco
+mkfs        formatar a partição
+mount       monta uma partição
+umount      desmonta uma partição
+
+ifconfig    informações de rede (pacote net-tools)
+
+
+$ => indica que usuário não tem permissão de admin/root
+# => indica que usuário tem permissão de admin/root
+~ => indica diretório home do usuário

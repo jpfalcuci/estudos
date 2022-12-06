@@ -1,0 +1,12 @@
+            gerenciamento de discos
+
+
+gerenciamento de disco deve ser feito como root
+discos, pendrives conectados são nomeados como "sd" (sda, sdb, sdc...) em /dev/
+
+listar discos na máquina        fdisk -l
+gerenciador de discos           fdisk /dev/sda => m for help
+formatar partição               mkfs.tipo_da_partição /dev/sda1
+montar partição                 mount /dev/sda1 /mnt/
+ver partições                   df -h
+desmontar partição              umout /mnt

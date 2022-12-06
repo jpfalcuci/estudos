@@ -1,0 +1,64 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+
+    document.write("<br><br>");
+
+};
+
+function mostrar(conteudo) {
+
+    document.write(conteudo)
+    pulaLinha()
+}
+
+var ano = 2022;
+
+	document.write("<h1>" + "João nasceu em " + (ano-30) + "</h1>");
+
+var num = 8;
+
+    document.write(num + " vezes 1 é " + (num * 1) + "<br>");
+    document.write(num + " vezes 2 é " + (num * 2) + "<br>");
+    document.write(num + " vezes 3 é " + (num * 3) + "<br>");
+
+var idadeA = 20;
+var idadeB = 29;
+var idadeC = 33;
+
+var media = ((idadeA + idadeB + idadeC)/3);
+
+	document.write("a média das idades é " + Math.round(media));
+
+document.write("<br><br>");
+
+    ano = 2016;
+
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    document.write("<br>");
+
+    ano = 2017;
+    document.write("Barney tem " + (ano - 1976) + " anos");
+    document.write("<br>");
+
+        var idadeFlavio = 39;
+        var idadeJoaquim = 20;
+        var idadeBarney = 41;
+
+        var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+        document.write("A média das idades é " + Math.round(media));
+
+        var nome = "Flávio";
+
+        pulaLinha();
+        
+        mostrar("A idade de " + nome + " é " + idadeFlavio);
+        mostrar("será que pulou a linha?")
+
+
+</script>

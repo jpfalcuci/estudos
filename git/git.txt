@@ -1,0 +1,45 @@
+git e github - sistema de controle de versões
+    existem outros; cvs, svn, mercurial
+
+git init para iniciar um repositório; git status para status
+
+git config --local user.name "nome"         -- repositório local
+git config --global user.email "email"		-- para todo computador
+
+git add <nome do arquivo> para adicionar um arquivo a ser monitorado
+    p/ adc tudo => git add .
+
+commit é um ponto de alteração no arquivo
+git comit -m "mensagem" (boa prática ser mensagem descritiva)
+
+git log para lista de alterações no arquivo		git log --oneline ou -p
+
+filtros para git log => https://devhints.io/git-log
+
+para o git ignorar arquivos, criar o arquivo .gitignore e no conteudo colocar o nome dos arquivos a serem ignorados, ou 'pasta/'
+
+git init --bare p/ criar repositório puro, só com as alterações dos arquivos
+
+git remote add 'nome' 'local'		git remote -v p/ mostrar caminho
+
+git clone 'caminho servidor' 'nome da pasta' para clonar o servidor para pasta de um novo usuário
+
+git push 'local' master para enviar dados para repositório remoto, e pull para trazer dados do repositório remoto
+
+branch são as ramificações de trabalho entre usuários
+git branch 'nome novo branch' para nova linha de branch
+git checkout 'nome novo branch' para selecionar nova linha; usar -b antes do nome para criar e mudar para branch
+
+git merge 'nome da branch a unir com a atual'
+
+git rebase 'nome da branch...' para unir branchs, mas mantendo commits
+
+git revert 'hash' para desfazer o commit
+
+git stash para salvar alterações num local temporário para trabalhar posteriormente
+git stash list, apply 'x', drop, pop (apply e drop)
+
+git diff commit1..commit2 para ver a diferença entre dois commmits
+
+tag é um marco fixo no projeto
+git tag -a 'nome' -m 'mensagem', enviar para o github gera uma release

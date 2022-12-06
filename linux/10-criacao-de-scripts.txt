@@ -1,0 +1,30 @@
+            criação de scripts
+
+
+um script é uma execução ordenada de comandos
+
+criar scripts           vim nome_do_script.sh
+
+    #!/bin/bash     => interpretador a ser utilizado
+    (#!/bin/python se fosse python)
+    
+    mkdir directory
+    cd directory
+    mkdir dir1 dir2 dir3
+    cd dir1
+    touch file1 file2
+    cd ../dir2
+    touch file3 file4
+
+:wq => salvar e sair
+
+executar script         ./nome_do_script.sh
+
+
+vim instala_pacote.sh
+    #!/bin/bash
+    
+    echo "instalando pacote $1"
+    apt install $1      => variável de ambiente
+
+./instala_pacote.sh nome-pacote

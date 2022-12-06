@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+	// pula duas linhas
+	document.write("<br><br>");
+}
+
+function mostra(frase) {
+	// mostra o texto e pula linha
+	document.write(frase);
+	pulaLinha();
+}
+
+for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+	
+	mostra("7 vezes " + multiplicador + " é igual a " + (7 * multiplicador));
+}
+
+mostra("Fim!")
+
+</script>
