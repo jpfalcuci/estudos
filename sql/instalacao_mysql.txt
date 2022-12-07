@@ -1,0 +1,17 @@
+$ sudo apt update
+
+$ sudo apt install mysql-server
+
+$ sudo mysql_secure_installation
+
+$ sudo mysql
+
+    mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+        ou
+    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+    mysql> FLUSH PRIVILEGES;
+
+    mysql> exit
