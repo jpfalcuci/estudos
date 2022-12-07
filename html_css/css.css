@@ -75,11 +75,11 @@
     cursor: pointer; /* trocar seta do mouse pela mãozinha clicável */
     transform: scale(1.2) rotate(70deg); /* escalonar e rotacionar elemento */
 
-    opacity: 0.5;                   /* transparencia do elemento, vai de 1 a 0 */
-    color: rgba(0,0,0,0.5);     /* transparencia na cor, rgb com a camada alfa */
-    box-shadow: ;                   /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
-    box-shadow: ;                   /* a b c cor, a2 b2 c2 cor2;		mais de uma sombra */
-    box-shadow: inset X Y blue;    /* sombra interna */
+    opacity: 0.5;                       /* transparencia do elemento, vai de 0 a 1 */
+    color: rgba(0,0,0,0.5);         /* transparencia na cor, rgb com a camada alfa */
+    box-shadow: 10px 10px 5px 5px black;    /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
+    /* a b c cor, a2 b2 c2 cor2;		mais de uma sombra */
+    box-shadow: inset 0 0 30px blue;    /* sombra interna */
 }
 
 .fontes {
@@ -93,6 +93,7 @@
     text-transform: uppercase; /* transforma conteúdo todo em maiusculo */
     text-decoration: none; /* remove as decorações, sublinhados */
     line-height: 1.5rem; /* altura da linha */
+    text-shadow: 2px 2px #ff0000; /* sombra no texto, mesmas propriedades de box-shadow */
 }
 
 .espacamentos {
