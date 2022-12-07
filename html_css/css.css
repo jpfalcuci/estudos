@@ -51,6 +51,9 @@
 */
 
 
+/* metodologia BEM para nomear classes => Block Element Modifier => bloco__elemento--modificador */
+
+
 /* declaração de variáveis */
 :root {
     --cor-principal: pink;
@@ -126,13 +129,12 @@
 
 
 /* media queries => adaptação para celular */
-@media screen and (max-widgth: 480px) {
-    /* reescreve código */
+@media screen and (max-width: 480px) {
+    /* sobrescreve código */
     /* por convenção, se utiliza a menor tela de celular com 320px, 480px p/ média de tablet e 1120px média desktop */
+    /* mobile first: construir páginas primeiramente para telas menores, e após adaptar para telas maiores */
 }
 
-
-/* metodologia BEM para nomear classes => Block Element Modifier => bloco__elemento--modificador */
 
 
 /*
