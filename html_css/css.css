@@ -24,7 +24,6 @@
 
 
 /* seletores
-
     boa prática é seguir a mesma estrutura do html; ordem em que aparecem 
 
     body            - tag body
@@ -60,7 +59,6 @@
     /* usar no código com   var(--cor-principal) */
 }
 
-
 * {
     color: lightblue; /* cor do conteúdo */
     background: #CCCCCC; /* fundo do elemento */
@@ -83,6 +81,8 @@
     box-shadow: 10px 10px 5px 5px black;    /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
     /* a b c cor, a2 b2 c2 cor2;		mais de uma sombra */
     box-shadow: inset 0 0 30px blue;    /* sombra interna */
+
+    overflow: hidden; /* itens que maiores que esse elemento ficam escondidos */
 }
 
 .fontes {
@@ -111,14 +111,17 @@
     display: block; /* elemento ocupa uma linha toda */
     display: inline; /* elemento permite outros conteúdos ao lado; não deixa alterar padding e margin */
     display: inline-block; /* interpreta tudo no html, inclusive espaçamento, então para deixar elementos lado a lado, vai ser necessário colar os elementos no código; ver vertical-align: top; */
+    display: none; /* não exibe elemento */
 }
 
 .posicoes {
     position: static; /* posição natural dos elementos */
     position: relative; /* relativo ao ponto inicial de criação; receber parâmetros de posição como o top: e left:*/
-    position: absolute; /* posição absoluta em relação a página; também recebe top:, left: */
+    position: absolute; /* posição absoluta em relação a página; recebe top:, left: */
+    top: 0px;
+    left: 30px;
     /* para que um elemento seja absolute em relação a um elemento pai, este elemento pai deve ter ser relative */
-    
+
     z-index: 1;	    /* para definir elemento no eixo z, sobreposição */
 }
 
@@ -127,7 +130,6 @@
     clear: left; /* limpa o float para elementos seguintes */
 }
 
-
 /* media queries => adaptação para celular */
 @media screen and (max-width: 480px) {
     /* sobrescreve código */
@@ -135,17 +137,42 @@
     /* mobile first: construir páginas primeiramente para telas menores, e após adaptar para telas maiores */
 }
 
+#flexbox {
+    display: flex; /* elementos dentro de um espaço, podem ser remanejados, se torna um flex container */
+    /* display flex dá acesso a "justify-content" e "align-itens" */
+    justify-content: space-evenly; /* espaçamento entre elementos no eixo horizontal */
+    align-items: center; /* espaçamento entre elementos no eixo vertical, por padrão vem stretch */
+    flex-wrap: nowrap; /* não quebra linha quando terminar a tela; wrap; => quebra linha */
+    flex-direction: column; /* direção dos elementos; padrão é row */
 
+    /* itens de um flex container são flex itens, e tem acesso a "justify-self" e "align-self" */
+    justify-self: center;
+    align-self: center;
+}
+
+#grid {
+    /* grids dividem a tela em proporção, container é a estrutura que serve de base para colunas (col)
+    gutter é o espaço entre as colunas, row divide a tela horizontalmente, resetando o padding do container */
+    display: grid; /* grid container, também são aplicados "justify-content" e "align-itens" */
+    /* por padrão, elementos são aplicados um abaixo do outro */
+    justify-content: center; /* neste caso, serve mais como alinhamento horizontal */
+    align-items: center; /* mesmo funcionamento, espaçamento no eixo vertical*/
+
+    grid-template-columns: 1fr 1fr; /* informa quantas colunas e qual tamanho, unidade de medidas de fração fr */
+    grid-template-rows: auto 1fr; /* mesmo funcionamento, auto para se ajustar ao tamanho do elemento */
+    grid-template-columns: repeat(3, auto); /* função para repetir o mesmo valor */
+
+    grid-column: span 2; /* elemento vai ocupar duas celulas, mesclar */
+    grid-row: 1 / span 2; /* elemento começa na primeira linha e depois dá um span de 2 linhas */
+    gap: 8px; /* espaçamento entre elementos, dentro do grid */
+    row-gap: 8px; /* espaçamento apenas entre linhas */
+
+    /* para melhor manutenção do código, grid-areas é melhor que grid-row / grid-column */
+    grid-template-areas: "titulo titulo titulo" "destaque destaque recentes"; 
+    /* nomeia posições no grid, entre aspas fica uma linha, com o que estará em cada coluna, depois dentro dos elementos, chama o nome do espaço que ele vai ocupar */
+    grid-area: "titulo"; /* define a área que o elemento vai ocupar, designada no grid container */
+}
 
 /*
     print quando for preparar tela para imprimir algo, ex: boleto
-
-    grids dividem a tela em proporção, container é a estrutura que serve de base para colunas (col), gutter é o espaço entre as colunas
-    row divide a tela horizontalmente, resetando o padding do container
-
-    display: flex; => elementos dentro de um espaço, podem ser remanejados, se torna um flex container
-    flex-wrap: nowrap; => não quebra linha; wrap; => quebra linha
-    flex-direction: column, row, etc
-    display: grid; => grid container => grid-template-columns: auto 1fr => gap: 8px
-    grid-template-areas: "x x y z" classifica posições no grid, entre aspas fica uma linha, com o que cada coluna ocupa, depois dentro dos elementos, chama o nome do espaço que ele vai ocupar na coluna
- */
+*/
