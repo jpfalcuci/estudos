@@ -62,7 +62,9 @@
 * {
     color: lightblue; /* cor do conteúdo */
     background: #CCCCCC; /* fundo do elemento */
-    background: url("imagem.png"); /* imagem de fundo; por padrão a imagem é repetida até preencher o espaço */
+    background: url("imagem.png"); /* imagem de fundo; por padrão a imagem é repetida até preencher o espaço, usar apenas com imagens "decorativas" */
+    background-repeat: no-repeat; /* não repetir background */
+    background-size: contain; /* tamanho do background, preenche container */
     background: linear-gradient(45deg, orange 50%, blue 50%); /* cor gradiente no css, pode mexer na inclinação e porcentagem da tela de onde o gradiente começa, radial-gradient para círculo */
 
     height: 50px; /* altura */
@@ -76,11 +78,11 @@
     cursor: pointer; /* trocar seta do mouse pela mãozinha clicável */
     transform: scale(1.2) rotate(70deg); /* escalonar e rotacionar elemento */
 
-    opacity: 0.5;                       /* transparencia do elemento, vai de 0 a 1 */
-    color: rgba(0,0,0,0.5);         /* transparencia na cor, rgb com a camada alfa */
-    box-shadow: 10px 10px 5px 5px black;    /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
+    opacity: 0.5; /* transparencia do elemento, vai de 0 a 1 */
+    color: rgba(0,0,0,0.5); /* transparencia na cor, rgb com a camada alfa */
+    box-shadow: 10px 10px 5px 5px black; /* Xpx Ypx BLURpx INTENSpx cor; 	sombra no elemento */
     /* a b c cor, a2 b2 c2 cor2;		mais de uma sombra */
-    box-shadow: inset 0 0 30px blue;    /* sombra interna */
+    box-shadow: inset 0 0 30px blue; /* sombra interna */
 
     overflow: hidden; /* itens que maiores que esse elemento ficam escondidos */
 }
@@ -92,11 +94,13 @@
     font-style: italic; /* estilo da fonte */
     font-family: 'Open Sans', sans-serif; /* nome da família da fonte, fonte alternativa */
     font-weight: bold; /* peso da fonte */
-    text-align: center; /* centraliza conteúdo */
+    text-align: center; /* centraliza conteúdo dentro de um bloco */
     text-transform: uppercase; /* transforma conteúdo todo em maiusculo */
     text-decoration: none; /* remove as decorações, sublinhados */
     line-height: 1.5rem; /* altura da linha */
     text-shadow: 2px 2px #ff0000; /* sombra no texto, mesmas propriedades de box-shadow */
+
+    list-style-type: none; /* remover decoração de estilo da lista */
 }
 
 .espacamentos {
@@ -156,7 +160,7 @@
     display: grid; /* grid container, também são aplicados "justify-content" e "align-itens" */
     /* por padrão, elementos são aplicados um abaixo do outro */
     justify-content: center; /* neste caso, serve mais como alinhamento horizontal */
-    align-items: center; /* mesmo funcionamento, espaçamento no eixo vertical*/
+    align-items: center; /* mesmo funcionamento, espaçamento no eixo vertical */
 
     grid-template-columns: 1fr 1fr; /* informa quantas colunas e qual tamanho, unidade de medidas de fração fr */
     grid-template-rows: auto 1fr; /* mesmo funcionamento, auto para se ajustar ao tamanho do elemento */
