@@ -1,0 +1,72 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 85%;
+    color: var(--azul);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url(../img/icons/Email.svg) no-repeat;
+    background-position: 5px center;
+    padding-left: 2rem;
+}
+
+/* seleciona o próprio input quando o texto do placeholder existe em um input de formulário */
+.contato__email:placeholder-shown {
+    color: var(--azul);
+    padding-left: 2rem;
+}
+
+
+@media screen and (min-width: 800px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+
+    .contato__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contato {
+        padding: 3em 15vw;
+    }
+}

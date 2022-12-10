@@ -53,6 +53,9 @@
 /* metodologia BEM para nomear classes => Block Element Modifier => bloco__elemento--modificador */
 
 
+/* recomenda-se importar no html o styles.css e este arquivo importar css complementares através do @import url() no início do arquivo */
+
+
 /* declaração de variáveis */
 :root {
     --cor-principal: pink;
@@ -101,6 +104,8 @@
     text-shadow: 2px 2px #ff0000; /* sombra no texto, mesmas propriedades de box-shadow */
 
     list-style-type: none; /* remover decoração de estilo da lista */
+    
+    -webkit-text-fill-color: #FFFFFF; /* colorir fonte; se não for definido, usa a propriedade color */
 }
 
 .espacamentos {
@@ -120,8 +125,9 @@
 
 .posicoes {
     position: static; /* posição natural dos elementos */
-    position: relative; /* relativo ao ponto inicial de criação; receber parâmetros de posição como o top: e left:*/
+    position: relative; /* relativo ao ponto inicial de criação; receber parâmetros de posição como o top: e left: */
     position: absolute; /* posição absoluta em relação a página; recebe top:, left: */
+    /* permite que você movimente o elemento de acordo com outro anterior (pai) e que não seja static */
     top: 0px;
     left: 30px;
     /* para que um elemento seja absolute em relação a um elemento pai, este elemento pai deve ter ser relative */
