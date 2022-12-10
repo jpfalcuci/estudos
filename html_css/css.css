@@ -147,10 +147,17 @@
     align-items: center; /* espaçamento entre elementos no eixo vertical, por padrão vem stretch */
     flex-wrap: nowrap; /* não quebra linha quando terminar a tela; wrap; => quebra linha */
     flex-direction: column; /* direção dos elementos; padrão é row */
+    flex-flow: column wrap; /* atalho para flex-direction e flex-wrap */
 
     /* itens de um flex container são flex itens, e tem acesso a "justify-self" e "align-self" */
     justify-self: center;
     align-self: center;
+
+    order: -1; /* exibe como primeiro item; flex-itens possuem propriedade order para alterar posição de exibição, por padrão 0 */
+    flex-grow: 1; /* fração do espaço vazio do flex-container que o flex-item ocupará; padrão é 0 */
+    flex-shrink: 2; /* proporção em que o elemento diminuirá seu tamanho de acordo com o tamanho da tela; padrão é 1; 0 para não diminuir */
+    flex-basis: 200px; /* define uma largura para o elemento; tem mais prioridade que width */
+    flex: 1 1 25%; /* flex-grow flex-shrink flex-basis */
 }
 
 #grid {
