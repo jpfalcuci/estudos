@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define o zoom inicial da página no device -->
         <title>Document</title> <!-- título da página -->
         <link rel="stylesheet" href="reset.css"> <!-- criado pela comunidade, limpa as configurações padrão do navegador -->
-        <!-- normalize.css, também limpa mas mantém alguns padrões que são úteis e corrige alguns bugs comuns de navegadores -->
+        <link rel="stylesheet" href="normalize.css" /> <!-- também limpa mas mantém alguns padrões que são úteis e corrige alguns bugs comuns de navegadores -->
         <link rel="stylesheet" href="style.css"> <!-- referência ao arquivo externo .css -->
     </head>
 
@@ -51,6 +51,8 @@
                 <source src="horse.mp3" type="audio/mpeg">
             </audio>
 
+            <video src="video.mp4" controls></video>
+
             <button type="button" aria-label="Entrar">Clique aqui</button>  <!-- elemento botão -->
             <!-- aria-label pode ser usado em casos onde o texto que poderia rotular o elemento é não visível. Se houver texto visível que rotule um elemento, use aria-labelledby. mesmo propósito, fornecem um nome acessível para um elemento -->
             <!-- dar preferência a usar botão quando ativar alguma função; para navegação e links usar a tag "a" (estilizar como botão) -->
@@ -65,6 +67,8 @@
             
             <nav>                                   <!-- menu de navegação -->
                 <a href="index.html">Link</a>       <!-- ancor, âncora p/ links -->
+                <!-- quando o link for um ícone, usar o att title -->
+                <a href="www.site.com" title="Nome do site"><img src="logo" alt="logo"></a>
             </nav>
 
             <form>                                  <!-- formulário -->
@@ -118,6 +122,9 @@
             <iframe src="link" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
             <address>                               <!-- informações de contato -->
+                <!-- tags a com informações para outros aplicativos se conectarem -->
+                <a href="tel:+5516999999999"></a>
+                <a href="mailto:jpfalcuci@gmail.com"></a>
             </address>
 
         </main>
@@ -129,3 +136,37 @@
     </body>
 
 </html>
+
+
+
+    emmet:
+
+header>img+nav>ul>li*3>a
+    <header>
+        <img src="" alt="">
+        <nav>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+section.destaques.container>h2.destaques__titulo+(a*2>figure.destaques__painel>img.destaques__painel-imagem+figc.destaques__painel-texto)+a.destaques__botao
+    <section class="destaques container">
+        <h2 class="destaques__titulo"></h2>
+        <a href="">
+            <figure class="destaques__painel">
+                <img src="" alt="" class="destaques__painel-imagem">
+                <figcaption class="destaques__painel-texto"></figcaption>
+            </figure>
+        </a>
+        <a href="">
+            <figure class="destaques__painel">
+                <img src="" alt="" class="destaques__painel-imagem">
+                <figcaption class="destaques__painel-texto"></figcaption>
+            </figure>
+        </a>
+        <a href="" class="destaques__botao"></a>
+    </section>

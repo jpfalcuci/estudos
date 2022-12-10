@@ -140,13 +140,6 @@
     clear: left; /* limpa o float para elementos seguintes */
 }
 
-/* media queries => adaptação para celular */
-@media screen and (max-width: 480px) {
-    /* sobrescreve código */
-    /* por convenção, se utiliza a menor tela de celular com 320px, 480px p/ média de tablet e 1120px média desktop */
-    /* mobile first: construir páginas primeiramente para telas menores, e após adaptar para telas maiores */
-}
-
 #flexbox {
     display: flex; /* elementos dentro de um espaço, podem ser remanejados, se torna um flex container */
     /* display flex dá acesso a "justify-content" e "align-itens" */
@@ -183,6 +176,15 @@
     grid-area: "titulo"; /* define a área que o elemento vai ocupar, designada no grid container */
 }
 
-/*
-    print quando for preparar tela para imprimir algo, ex: boleto
-*/
+/* media queries => adaptação para celular */
+@media screen and (max-width: 480px) {
+    /* sobrescreve código */
+    /* por convenção, se utiliza a menor tela de celular com 320px, 480px p/ média de tablet e 1120px média desktop */
+    /* tablet 768px até 1024px */
+    /* mobile first: construir páginas primeiramente para telas menores, e após adaptar para telas maiores */
+}
+
+@media print {
+    /* quando for preparar tela para imprimir algo */
+    /* ex: esconder todo conteúdo, menos boleto */
+}
