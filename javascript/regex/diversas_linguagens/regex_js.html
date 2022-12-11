@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regex</title>
+</head>
+<body>
+    <script>
+
+        var alvo = '11a22b33c';
+        var exp = new RegExp('(\\d\\d)(\\w)', 'g'); // padrão, g para aplicar globalmente
+        var exp = /(\d\d)(\w)/g; // outra forma mais comum de definir uma regex, aplicável quando a regex está fixa, mais perfomático
+
+        var resultado = null;
+        while (resultado = exp.exec(alvo)) {
+            console.log(resultado);
+            console.log(exp.lastIndex);
+        }
+        // Array(3) [ "11a", "11", "a" ]        3
+        // Array(3) [ "22b", "22", "b" ]        6
+        // Array(3) [ "33c", "33", "c" ]        9
+
+    </script>
+</body>
+</html>
