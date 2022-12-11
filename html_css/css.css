@@ -181,6 +181,7 @@
     grid-template-areas: "titulo titulo titulo" "destaque destaque recentes"; 
     /* nomeia posições no grid, entre aspas fica uma linha, com o que estará em cada coluna, depois dentro dos elementos, chama o nome do espaço que ele vai ocupar */
     grid-area: "titulo"; /* define a área que o elemento vai ocupar, designada no grid container */
+    /* usando grid-areas também deve-se definir o tamanho das linhas e colunas com grid-template-columns/rows */
 }
 
 /* media queries => adaptação para celular */
