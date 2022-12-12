@@ -74,7 +74,9 @@
             <form>                                  <!-- formulário -->
                 <label for="nome">Nome</label>      <!-- etiqueta para o input e entrada de dados-->
                 <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
-
+                <!-- types: tel password email date, required para obrigatório -->
+                <!-- atributo pattern para usar regex -->
+                <!-- ideal é evitar usar classes e ids para identificação no js, para isso, criar data-attributes usando data-nome_de_algo="variavel" -->
                 <label for="mensagem">Mensagem</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
@@ -130,9 +132,10 @@
         </main>
 
         <footer>                                    <!-- rodapé da página -->
-
         </footer>
 
+        <!-- importa arquivo javascript -->
+        <script src="./main.js" type="module"></script>
     </body>
 
 </html>

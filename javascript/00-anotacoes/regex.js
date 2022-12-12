@@ -58,4 +58,5 @@ var data = "^Data:[\s]?[0-9]{2}\/[0-9]{2}\/[0-9]{4}$"
 /* 
     https://regexr.com/
     https://regex101.com/
+    https://regexlib.com/
 */
