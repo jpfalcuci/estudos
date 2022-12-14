@@ -1,0 +1,153 @@
+/* cabeçalho */
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    top: 0;
+}
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+/* menu */
+
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3), 
+.menu__lista:nth-child(4) {
+    display: none;
+}
+
+/* seção superior */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
+
+/* vídeo */
+
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+/* rodapé */
+
+.rodape__container {
+    display: flex;
+    flex-flow: column wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+@media screen and (min-width: 834px) {
+    /* cabeçalho */
+
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
+
+    /* menu */
+
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+
+    /* rodapé */
+
+    .rodape__container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3), 
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__lista {
+        height: auto;
+        padding: 20px 17px 20px 15px;
+        gap: 15px;
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .jogos {
+        order: 3;
+    }
+
+    .filmes {
+        order: 2;
+    }
+
+    .premium {
+        order: 1;
+    }
+
+    .maispagina {
+        order: 4;
+    }
+}
