@@ -171,9 +171,13 @@
     grid-template-columns: 1fr 1fr; /* informa quantas colunas e qual tamanho, unidade de medidas de fração fr */
     grid-template-rows: auto 1fr; /* mesmo funcionamento, auto para se ajustar ao tamanho do elemento */
     grid-template-columns: repeat(3, auto); /* função para repetir o mesmo valor */
+        /* pode receber inteiros acima de 0, ou auto-fill / auto-fit 
+        auto-fill: preenche a linha do Grid Container com novas colunas sempre que há espaço para caber mais uma 
+        auto-fit: ajusta o tamanho das colunas para ocupar o tamanho total do espaço disponível do container, expandindo-as */
 
     grid-column: span 2; /* elemento vai ocupar duas celulas, mesclar */
     grid-row: 1 / span 2; /* elemento começa na primeira linha e depois dá um span de 2 linhas */
+    grid-area: 1 / 1 / 2 / 4; /* row-start / column start / row-end / column-end */
     gap: 8px; /* espaçamento entre elementos, dentro do grid */
     row-gap: 8px; /* espaçamento apenas entre linhas */
 
@@ -182,6 +186,12 @@
     /* nomeia posições no grid, entre aspas fica uma linha, com o que estará em cada coluna, depois dentro dos elementos, chama o nome do espaço que ele vai ocupar */
     grid-area: "titulo"; /* define a área que o elemento vai ocupar, designada no grid container */
     /* usando grid-areas também deve-se definir o tamanho das linhas e colunas com grid-template-columns/rows */
+
+    /* minmax */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(348px, 100%/3)), 1fr));
+    /* função que recebe um intervalo entre 2 valores (minimo e máximo)
+    cada valor pode ter seu próprio mínimo e máximo
+    o valor máximo só entra em vigor quando tem condições para o parãmetro mínimo acontecer */
 }
 
 /* media queries => adaptação para celular */

@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "aside header"
+        "aside main"
+        "rodape rodape"
+    ;
+    grid-template-columns: auto 1fr;
+}
+
+.cabecalho {
+    grid-area: header;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
+
+.rodape {
+    grid-area: rodape;
+}
