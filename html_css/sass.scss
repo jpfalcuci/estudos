@@ -1,0 +1,97 @@
+/* SASS
+
+syntactically awesome style sheets
+
+a medida que os css aumentam, fica maior a complexidade e mais difícil a manutenção
+um pré processador ajuda nessa parte
+
+sass é uma ferramenta que cria arquivos css
+uma linguagem que adiciona recursos que não existem no css
+
+- variáveis
+- classes aninhadas
+- particionamento de arquivos
+- importação de estilos e arquivos
+- mixins para reaproveitar estilos (parecido com funções)
+- operações matemáticas
+
+scss é um css com super poderes (*.scss)
+sass suporta todos os recursos do scss (*.sass)
+
+usa espaço ao invés de chaves e ponto e vírgula
+
+forma de usar:
+    abrir o arquivo style.scss, abrir a paleta de comandos (ctrl+shift+p)
+    selecionar "Live Sass: Watch Sass"
+    importar o arquivo assets/css/style.min.css no html
+*/
+
+// esse comentário não vai aparecer no css compilado
+/* esse comentátio vai aparecer no css compilado */
+
+// declaração de variáveis no início do arquivo:
+$variavel: #827397;
+
+// uso de funções
+@mixin funcao($cor) { 
+    padding: 0;
+    margin: 0;
+    color: $cor;
+}
+
+body {
+    @include funcao($variavel);
+}
+
+/* por convenção, dentro da pasta css, se usa a pasta abstract
+nela, ficam os arquivos relacionado a aplicação, como variáveis, fontes, cores, referentes a estrutura geral
+arquivos com underline _base.scss se trata de uma partial
+arquivo base por convenção contém essa informações
+no arquivo style.scss: @import './abstract/base';
+*/
+
+
+// aninhamento e seletor &
+
+@import '../abstract/variaveis';
+nav {
+    text-align: center;
+    ul {
+        li {
+            display: inline-block;
+            a {
+                color: $cor-primaria;
+                &:hover {
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+            }
+        }
+    }
+}
+
+/* palavras reservadas
+
+@use	        carrega mixins, functions e variáveis de outras folhas de estilos Sass e combina o CSS de diversas folhas de estilo juntos.
+@forward        carrega uma folha de estilo Sass e torna os mixins, functions e variáveis disponíveis quando a folha de estilo é carregada pela regra do @use.
+@import	        estende as regras de CSS para carregar styles, mixins, functions e variáveis de outras folhas de estilo.
+@mixins / @include      facilitam a reutilização de trechos de código.
+@function       define funções customizadas que podem ser utilizadas em expressões.
+@extend	        permite que os seletores herdem estilos uns dos outros.
+@at-root        coloca estilos dentro dele na raiz do documento CSS.
+@error          faz com que a compilação falhe com uma mensagem de erro.
+@warn           imprime um aviso sem parar totalmente a compilação.
+@debug          imprime uma mensagem para fins de debugging.
+*/
+
+
+// condicionais sass
+
+/* 
+@mixin bg-cores($lado, $cores...)
+    @if $lado == left
+        background: linear-gradient(to left, $cores)
+    @else 
+        background: linear-gradient(to right, $cores)
+
+@include bg-cores("right", $cor-primaria, $cor-secundaria, $cor-terciaria, $cor-terciaria
+*/

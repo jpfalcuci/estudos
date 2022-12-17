@@ -1,0 +1,21 @@
+@import '../abstract/variaveis'
+
+@mixin personalizacao($cor, $escala-texto)
+    color: $cor
+    font-size: $tamanho-do-texto / $escala-texto
+    padding: .25rem
+
+#mensagem
+    text-align: center
+    padding: 1.3rem
+
+    h3
+        @include personalizacao($cor-primaria, 1.8)
+    
+    h4
+        @include personalizacao($cor-secundaria, 2.5)
+
+    p
+        @include personalizacao($cor-primaria, 3.2)
+        max-width: 900px
+        margin: 0 auto
