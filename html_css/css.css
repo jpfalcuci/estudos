@@ -206,3 +206,19 @@
     /* quando for preparar tela para imprimir algo */
     /* ex: esconder todo conteúdo, menos boleto */
 }
+
+
+/*      tailwind css
+
+frameworks facilitam o trabalho, mas criam padronização, dificultam a personalização
+
+o tailwind utiliza como recurso classes utilitárias para que você crie seus próprios componentes, ao invés de fornecer um componente pronto
+
+fácil e intuitivo; altamente customizável; foco em responsividade; integração com outros frameworks js
+
+classes utilitárias representam as propriedades do css
+com isso, utiliza-se apenas o que precisa, evitando sobreposição
+
+para comparação, no bootstrap, as classes representam um componente
+para personalizar, é necessário sobrescrever o código css
+*/
