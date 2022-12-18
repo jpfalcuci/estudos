@@ -121,6 +121,11 @@
     display: inline; /* elemento permite outros conteúdos ao lado; não deixa alterar padding e margin */
     display: inline-block; /* interpreta tudo no html, inclusive espaçamento, então para deixar elementos lado a lado, vai ser necessário colar os elementos no código; ver vertical-align: top; */
     display: none; /* não exibe elemento */
+
+    object-fit: cover; /* forma como o objeto vai se comportar com relação ao objeto pai */
+    object-position: 0 80%; /* posição do elemento, eixos x e y */
+
+    color: darkred!important; /* recurso para que o valor sobrescreva outros valores, usar com cuidado */
 }
 
 .posicoes {
