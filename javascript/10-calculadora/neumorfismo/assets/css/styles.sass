@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap')
+
+$cor-de-fundo: #edf1f4
+$sombra-inferior: rgba(0,0,0,.2)
+$sombra-superior: #fffc
+$texto-resultado: #5166d6
+$cor-letra-botao-branco: #666
+$cor-botao-C: #f44336
+$cor-botao-soma: #31a935
+$cor-botao-igual: #2196f3
+$cor-branca: #fff
+
+$cor-botao-C: #d6726b
+$cor-botao-soma: #5eb95f
+$cor-botao-igual: #579bd3
+
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Inconsolata', monospace
+
+body
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+    background: $cor-de-fundo
+
+.calculadora
+    position: relative
+    width: 340px
+    padding: 20px
+    border-radius: 20px
+    box-shadow: 15px 15px 20px $sombra-inferior, -15px -15px 20px $sombra-superior
+
+    .botoes
+        position: relative
+        display: grid
+
+        #result
+            position: relative
+            grid-column: span 4
+            user-select: none
+            overflow none
+            width: 100%
+            text-align: end
+            color: $texto-resultado
+            height: 100px
+            line-height: 100px
+            box-shadow: inset 5px 5px 10px $sombra-inferior, inset -5px -5px 20px $sombra-superior
+            border-radius: 10px
+            margin-bottom: 12px
+            padding: 0 20px
+            font-size: 2em
+            // font-weight: 500
+        
+        span
+            position: relative
+            padding: 10px
+            box-shadow: 5px 5px 10px $sombra-inferior, -5px -5px 20px $cor-branca
+            margin: 6px
+            cursor: pointer
+            user-select: none
+            min-width: 40px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 1.4em
+            color: $cor-letra-botao-branco
+            border: 2px solid $cor-de-fundo
+            box-shadow: 5px 5px 10px $sombra-inferior, -5px -5px 20px $cor-branca
+            border-radius: 10px
+
+            &:active
+                box-shadow: inset 5px 5px 10px $sombra-inferior, inset -5px -5px 20px $cor-branca
+                color: #f44336
+
+            &#limpar
+                grid-column: span 2
+                background: $cor-botao-C
+
+            &#soma
+                grid-row: span 2
+                background: $cor-botao-soma
+
+            &#igual
+                grid-row: span 2
+                background: $cor-botao-igual
+
+            &#limpar, &#soma, &#igual
+                color: $cor-branca
+                border: 2px solid #edf1f4
+
+                &:active
+                    box-shadow: 5px 5px 10px $sombra-inferior, -5px -5px 10px $cor-branca, inset 5px 5px 10px $sombra-inferior
+
+
+.toggleBtn
+    position: fixed
+    top: 30px
+    right: 30px
+    width: 25px
+    height: 25px
+    border-radius: 50%
+    background: #555
+    cursor: pointer
+    border: 5px 5px 10px $cor-de-fundo
+    box-shadow: 5px 5px 10px $sombra-inferior, -5px -5px 10px $cor-branca
+
+
+.dark
+    background: #282c2f
+    
+    .calculadora
+        box-shadow: 5px 5px 10px rgba(0,0,0,.25), -5px -5px 10px rgba(255,255,255,.1)
+
+        .botoes
+            span
+                color: #eee
+                border: 2px solid #333
+                box-shadow: 5px 5px 10px rgba(0,0,0,.25), -5px -5px 10px rgba(255,255,255,.1)
+
+                &:active
+                    box-shadow: inset 5px 5px 10px rgba(0,0,0,.25), inset -5px -5px 10px rgba(255,255,255,.1)
+                
+                &#limpar, &#soma, &#igual
+                    border: 2px solid #333
+
+                    &:active
+                        box-shadow: inset 5px 5px 10px rgba(0,0,0,.1),
+
+            #result
+                background: #33393e
+                color: #eee
+                box-shadow: inset 15px 15px 20px rgba(0,0,0,.5), inset -15px -15px 20px rgba(255,255,255,.1)
+    
+    .toggleBtn
+        background: #edf1f4
+        border: 2px solid #333
+        box-shadow: 5px 5px 10px rgba(0,0,0,.25), -5px -5px 10px rgba(255,255,255,.25)
