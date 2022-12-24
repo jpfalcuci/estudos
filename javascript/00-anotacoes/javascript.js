@@ -30,6 +30,7 @@ target.parentNode                   // retorna o pai do elemento
 button.onclick			            // executa função, chamando sem () ele só imprime a função no console
 button.oncontextmenu	            // clique direito, usar 'return false' p/ ñ exibir menu de contexto
 evento.shiftKey			            // true ou false se tecla estiver ativa, https://keycode.info
+evento.preventDefault()             // previne algum comportamento padrão
 
 
 alert('cria um popup na tela');
@@ -55,12 +56,14 @@ document.onclick = tocaSom();   // => executa tocaSom
 document.onclick = tocaSom;     // => guarda tocaSom dentro de onclick
 // navegadores tem política de bloquear códigos que executam mídias antes do usuário interagir com a página
 
-var ano = 2022;             //  também usa 'let'
+var ano = 2022;             // declara variável
+let bloco                   // variável existe apenas no seu escopo
 const constante = 'variável que não é alterada'
 var array = [0, 1, 2];      // lista
 array.length();				// quantidade de elementos do array
 array.push();				// adiciona valor p/ array
-array.forEach               // loop para arrays
+array.forEach();            // loop para arrays
+array.splice()              // remove um item do array
 
 var tela = document.querySelector('canvas'); 	
 tela.onmousemove		// captura movimento do mouse
@@ -78,6 +81,9 @@ var y = 'parametro da função'.pageY - tela.offsetTop;   // descontar offset da
 
 const idAudio = `#som_de_${instrumento}`;   // template string, variável dentro da string, usa cráse
 
+const lista = document.getElementById("lista")
+lista.appendChild(objeto_js)        // adiciona elemento no html
+
 
 function funcao() { alert('msg') }  // função nomeada, reaproveitamento de código
 addEventListener('event', funcao)   // executa função quando ocorre evento
@@ -89,7 +95,7 @@ function acao() { console.log("mensagem") }
 
 // função anônima, executada apenas onde é declarada
 elemento.addEventListener('click', function() { console.log("mensagem") })
-// arrow function, a partir do ES6:
+// arrow function, a partir do ES6 (não permite usar o this):
 elemento.addEventListener('click', () => { console.log("mensagem") })
 
 // parâmetros
@@ -100,6 +106,17 @@ elemento.addEventListener('click', (evento) => { console.log(evento) })
 var objeto = {propriedade: "valor"}
 var pessoa = {nome: "nome", frase: "frase", enviaFrase() {return this.frase;}}
 console.log(pessoa.enviaFrase())
+
+// local storage => salva informações no navegador, lê apenas json, string
+console.log(localStorage)
+localStorage.setItem("propriedade", "valor")
+localStorage.propriedade                // retorna "valor"
+localStorage.getItem("propriedade")     // retorna "valor"
+localStorage.removeItem("propriedade")
+localStorage.clear()                    // limpa todo local storage
+localStorage.setItem("item", JSON.stringify(item))  // transforma objeto js em string
+const itens = JSON.parse(localStorage.getItem("itens")) || [];  // coleta itens do local storage OU cria lista vazia se não houverem itens
+
 
 /* 
     ;	    caractere especial que significa 'pula uma linha'
