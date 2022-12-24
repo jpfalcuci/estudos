@@ -204,3 +204,8 @@ with open('teste.txt', 'w') as f:
 import io
 arquivo = io.open('file.txt', 'r', encoding='utf-8')
 artigos = arquivo.read()
+
+import os
+root = os.path.abspath('')          # jupyter notebook
+root = os.path.dirname(__file__)    # python script
+config_ini = os.path.join(root, 'tools/config.ini')
