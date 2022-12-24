@@ -4,8 +4,16 @@ html {
     font-family: 'Roboto', cursive;
 }
 
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding-top: 5vh;
+    margin: 0;
+}
+
 .conteudo {
-    padding: 10vh 3em 0;
+    padding: 5vh 3em 0;
     display: flex;
     align-items: flex-start;
     gap: 2em;
@@ -15,7 +23,7 @@ html {
 .principal {
     flex-grow: 1;
     flex-basis: auto;
-    min-width: 600px;
+    min-width: 270px;
     padding: 4em 2em 2em;
     box-sizing: border-box;
     display: flex;
@@ -131,3 +139,12 @@ html {
     font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+    .mochila {
+        display: none;
+    }
+
+    .conteudo {
+        padding-left: 1em;
+    }
+}
