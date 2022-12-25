@@ -11,6 +11,13 @@
     Strict Mode => Modo estrito
     após ativado, erros que anteriormente eram silenciosos, agora dão erro de execução
     para ativar usar "use strict" no começo do arquivo
+
+    js síncrono e assíncrono
+        síncrono é simultâneo, sincronizado
+        assíncrono é a comunicação sem sincronia, aguardar por respostas demoradas
+    por padrão, js é síncrono, executa uma tarefa após a outra
+    podemos fazer um sistema assíncrono, com tarefas em "segundo plano"
+
 */
 
 // DOM => document object model
@@ -63,7 +70,8 @@ var array = [0, 1, 2];      // lista
 array.length();				// quantidade de elementos do array
 array.push();				// adiciona valor p/ array
 array.forEach();            // loop para arrays
-array.splice()              // remove um item do array
+array.splice();             // remove um item do array
+array.map();                // executa função para cada item do array
 
 var tela = document.querySelector('canvas'); 	
 tela.onmousemove		// captura movimento do mouse
@@ -154,3 +162,37 @@ class Classe {
 
 let xhr = new XMLHttpRequest();         // xhr.open('GET', url, true);
 xhr.onreadystatechange = function() { } // propriedade disparada sempre que a requisição sofre alteração
+
+
+// fetch
+// método assíncrono que tem como parâmetro obrigatório a url de uma api
+var consultaCEP = fetch('viacep.com.br/ws/01001000/json');
+// retorna uma promisse => pode ser retornada "resolvida" ou "rejeitada" em um objeto do tipo response
+// para acessar o objeto é necessário converter:
+// método .then => "então", faz algo com a resposta recebida, apenas se a promisse tiver sido resolvida
+// método .catch => se a promessa for rejeitada
+// método .finally => executado nos dois casos, independente da resposta
+var consultaCEP = fetch('https://viacep.com.br/ws/0100100/json').then(resposta  => resposta.json())
+    .then(r => console.log(r)).catch(erro => console.log(erro))
+    .finally(mensagem => console.log("Processamento concluído!"));
+
+// callback hell => situações que geram respostas atrás de respostas, .then após .then
+// uma solução é o async await
+async function buscaEndereco(cep) {
+    try {
+        var consultaCEP = await fetch(`https://viacep.com.br/ws/${cep}/json`);
+        var consultaCEPConvertida = await consultaCEP.json();
+        if (consultaCEPConvertida.erro) {
+            throw Error("CEP não existente!");
+        }
+        console.log(consultaCEPConvertida);
+        return consultaCEPConvertida;
+    } catch(erro) {
+        console.log(erro);
+    }
+}
+
+// várias requisições com Promise
+let ceps = ["01001000","01001001"];
+let conjuntoCEPs = ceps.map(valores => buscaEndereco(valores));
+Promise.all(conjuntoCEPs).then(respostas => console.log(respostas));
