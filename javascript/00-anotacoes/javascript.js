@@ -39,6 +39,7 @@ button.onclick			            // executa função, chamando sem () ele só imprim
 button.oncontextmenu	            // clique direito, usar 'return false' p/ ñ exibir menu de contexto
 evento.shiftKey			            // true ou false se tecla estiver ativa, https://keycode.info
 evento.preventDefault()             // previne algum comportamento padrão
+console.log(campo.validity)         // returna uma lista de erros de um campo de input
 
 
 alert('cria um popup na tela');
@@ -128,6 +129,7 @@ lista.appendChild(objeto_js)        // adiciona elemento no html
 
 function funcao() { alert('msg') }  // função nomeada, reaproveitamento de código
 addEventListener('event', funcao)   // executa função quando ocorre evento
+addEventListener('blur', funcao)    // blur = quando tira o foco do campo de input
 
 // exemplo:
 const elemento =  document.querySelector('#elemento')
@@ -258,3 +260,30 @@ const listaDeVideos = document.querySelector("[data-lista]");
 while (listaDeVideos.firstChild) { 
     listaDeVideos.removeChild(listaDeVideos.firstChild);
 } // seleciona os itens do html e apaga todos, útil para adicionar novos itens, como numa busca ou filtro
+
+// validação de idade
+function validaIdade(data) {
+    const dataAtual = new Date();
+    const dataMais18 = new Date(data.getUTCFullYear() + 18, data.getUTCMonth(), data.getUTCDate());
+    return dataAtual >= dataMais18;
+}
+
+// validação de cpf
+function validaNumerosRepetidos(cpf) {
+    const numerosRepetidos = ['00000000000', '...', '99999999999']
+    return numerosRepetidos.includes(cpf);
+}
+
+function validaDigito(cpf, mult, tam) {
+    let soma = 0;
+    let multiplicador = mult;
+    for (let tamanho = 0; tamanho < tam; tamanho++) {
+        soma += cpf[tamanho] * multiplicador;
+        multiplicador--;
+    }
+    soma = (soma*10) % 11;
+    if (soma==10 || soma==1) {
+        soma = 0;
+    }
+    return soma != cpf[tam];
+}
