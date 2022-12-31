@@ -66,8 +66,10 @@ document.onclick = tocaSom;     // => guarda tocaSom dentro de onclick
 // navegadores tem política de bloquear códigos que executam mídias antes do usuário interagir com a página
 
 var ano = 2022;             // declara variável
-let bloco                   // variável existe apenas no seu escopo
-const constante = 'variável que não é alterada'
+let bloco;                  // variável existe apenas no seu escopo
+const constante = 'variável que não é alterada';
+const frase = `o ano é ${ano}`;     // template strings
+
 var array = [0, 1, 2];      // lista
 array.length();				// quantidade de elementos do array
 array.push();				// adiciona valor p/ array
@@ -227,3 +229,32 @@ async function buscaEndereco(cep) {
 let ceps = ["01001000","01001001"];
 let conjuntoCEPs = ceps.map(valores => buscaEndereco(valores));
 Promise.all(conjuntoCEPs).then(respostas => console.log(respostas));
+
+
+/*
+nodejs => instalar json-server
+
+    node package manager
+        repositório de projetos feitos em node, open-source
+        também permite a instalação de bibliotecas e pacotes via linha de comando
+
+    $ npm init
+    $ npm install -g json-server
+    $ json-server --watch db.json
+*/
+
+// quando se usa export de funções, é necessário importar o módulo no html com a tag type="module"
+// na primeira linha do arquivo, é feita a importação:
+import { nomeDaArquivo } from "./arquivo.js";
+import nomeDaFuncao from "./arquivo.js";
+
+function constroiCard(descricao) {
+    const video = document.createElement('li');
+    video.className = "class__name";
+    video.innerHTML = `<p>${descricao}</p>`
+}
+
+const listaDeVideos = document.querySelector("[data-lista]");
+while (listaDeVideos.firstChild) { 
+    listaDeVideos.removeChild(listaDeVideos.firstChild);
+} // seleciona os itens do html e apaga todos, útil para adicionar novos itens, como numa busca ou filtro
