@@ -32,6 +32,11 @@ for i in range(2,10):                           # iterando em valores e preenche
 wb.save('file.xlsx')    # sempre salvar e fechar o arquivo ao final das edições
 wb.close()
 
+# alignmente
+
+from openpyxl.styles import Alignment
+
+ws.freeze_panes = 'A2'  # congela a visualização da primeira linha e primeira coluna
 
 
 # styles
