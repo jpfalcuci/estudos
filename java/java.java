@@ -2,6 +2,7 @@
     java é uma linguagem orientada a objetos de propósito geral
     case sentitive
     instruções devem terminar com ;
+    padrão de projeto bastante utilizado => MVC (Model, View, Controller)
 */
 
 package MeuProjeto;     // pacote ao qual o arquivo pertence

@@ -8,10 +8,17 @@ $ sudo mysql
 
     mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
 
-    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'P4ssw0rd';
         ou
-    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+    mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P4ssw0rd';
 
     mysql> FLUSH PRIVILEGES;
 
-    mysql> exit
+    mysql> exit;
+
+
+alterar a senha:
+	mysql -u root -p
+	ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
+	flush privileges;
+	exit;
