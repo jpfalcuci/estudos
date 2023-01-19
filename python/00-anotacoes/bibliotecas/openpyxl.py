@@ -9,6 +9,10 @@ sheet = wb.active                   # seleciona a aba ativa
 
 ws.column_dimensions['B'].width = 8 # edita a largura da coluna
 
+ws.auto_filter.ref = ws.dimensions  # ativa o filtro nas colunas
+ws.auto_filter.add_filter_column(0, ["Valor1", "Valor2"])   # valores pré selecionados no filtro
+ws.auto_filter.add_sort_condition("B2:B15") # ordenação
+
 ws['B5'].value                      # retorna o valor da célula B5
 ws.cell(row=1,column=2).value       # também retorna o valor da célula, na linha 1, coluna 2
 
