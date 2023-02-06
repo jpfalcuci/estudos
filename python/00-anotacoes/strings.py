@@ -109,3 +109,12 @@ a = 'string, código, '\
     'continuação'           # permite continuar em outra linha de código
 b = 'string \tcontinuação'  # cria um espaço
 c = 'string \ncontinuação'  # pula uma linha
+
+
+# typewrite effect
+import time
+
+string = "Este é um teste de digitação com python ;)"
+for char in string:
+    time.sleep(0.05)
+    print(char, end='', flush=True)
