@@ -43,3 +43,8 @@ git diff commit1..commit2 para ver a diferença entre dois commmits
 
 tag é um marco fixo no projeto
 git tag -a 'nome' -m 'mensagem', enviar para o github gera uma release
+
+
+github e gitlab:
+    $ git remote add origin git@github.com:seu-nome-de-usuário/seu-repositório.git
+    $ git remote set-url --add --push origin git@gitlab.com:seu-nome-de-usuário/seu-repositório.git
