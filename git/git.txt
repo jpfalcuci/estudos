@@ -48,3 +48,15 @@ git tag -a 'nome' -m 'mensagem', enviar para o github gera uma release
 github e gitlab:
     $ git remote add origin git@github.com:seu-nome-de-usuário/seu-repositório.git
     $ git remote set-url --add --push origin git@gitlab.com:seu-nome-de-usuário/seu-repositório.git
+    ! comandos acima não funcionaram como esperado
+
+    - iniciar repositório local
+    - git branch -m main
+    - git remote add github https://github.com/user/rep.git
+    - git remote add gitlab https://gitlab.com/user/rep.git
+    - git remote (confirma a adição dos repositórios locais)
+    
+    - após realizar commits locais
+    - git push github main
+    - git push gitlab main
+    (não usar a flag -u no push pois ela estabelece que todo push pode ser feito apenas na branch indicada)
