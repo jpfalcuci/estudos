@@ -45,6 +45,25 @@ tag é um marco fixo no projeto
 git tag -a 'nome' -m 'mensagem', enviar para o github gera uma release
 
 
+commit com título e descrição:
+    git commit -m "Assunto" -m "Descrição..."
+
+configurar editor padrão:
+    git config --global core.editor nano (ou vim)
+
+
+correções de commits: 
+
+corrige a mensagem do commit anterior:
+    git commit -m "mensagem corrigida" --amend
+
+muda a HEAD para 3 commits atrás, sem perder os arquivos
+    git reset --soft HEAD~3
+
+interativo, abre o editor para escolher o que fazer com os commits
+    git rebase -i HEAD~3
+
+
 github e gitlab:
     $ git remote add origin git@github.com:seu-nome-de-usuário/seu-repositório.git
     $ git remote set-url --add --push origin git@gitlab.com:seu-nome-de-usuário/seu-repositório.git
