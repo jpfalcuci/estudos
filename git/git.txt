@@ -6,6 +6,8 @@ git init para iniciar um repositório; git status para status
 git config --local user.name "nome"         -- repositório local
 git config --global user.email "email"		-- para todo computador
 
+git config --global init.defaultBranch main -- definir a branch padrão para repositórios novos
+
 git add <nome do arquivo> para adicionar um arquivo a ser monitorado
     p/ adc tudo => git add .
 
