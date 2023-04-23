@@ -22,3 +22,9 @@ alterar a senha:
 	ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
 	flush privileges;
 	exit;
+
+
+alterar a senha do usuário postgres
+    sudo -u postgres psql
+    \password postgres
+    \q
