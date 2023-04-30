@@ -1,0 +1,19 @@
+mysql
+    docker run --name mysql -e MYSQL_ROOT_PASSWORD=Password -d -p 3306:3306 --restart=always mysql
+
+    docker exec -it mysql bash
+    mysql -uroot -pPassword
+
+
+    no dbeaver:
+        Driver properties
+            Alterar allowPublicKeyRetrieval de false para true
+
+
+postgresql
+    docker run --name postgres -e POSTGRES_PASSWORD=Password -d -p 5432:5432 --restart=always postgres
+
+
+sql server
+    docker run --name sqlserver -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=Password123 -p 1433:1433 -d --restart=always mcr.microsoft.com/mssql/server:2022-latest
+    (por padrão, usuário 'sa')
