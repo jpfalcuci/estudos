@@ -3,7 +3,7 @@
  *
  * This generated file contains a sample Java application project to get you started.
  * For more details take a look at the 'Building Java & JVM projects' chapter in the Gradle
- * User Manual available at https://docs.gradle.org/8.0-rc-1/userguide/building_java_projects.html
+ * User Manual available at https://docs.gradle.org/8.1/userguide/building_java_projects.html
  */
 
 plugins {
@@ -24,7 +24,14 @@ dependencies {
     implementation 'com.google.guava:guava:31.1-jre'
 
     // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
-    implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.0.33'
+    implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.0.33';
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(20)
+    }
 }
 
 application {

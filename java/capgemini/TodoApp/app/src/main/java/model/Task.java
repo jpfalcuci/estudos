@@ -8,10 +8,10 @@ import java.util.Date;
 
 /**
  *
- * @author jpfalcuci
+ * @author jpfal
  */
 public class Task {
-
+    
     private int id;
     private int idProject;
     private String name;
@@ -127,5 +127,4 @@ public class Task {
         sb.append('}');
         return sb.toString();
     }
-
 }

@@ -1,31 +1,32 @@
-CREATE DATABASE "todoapp" /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE `TodoApp` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `TodoApp`;
 
 
--- todoapp.projects definition
+-- TodoApp.projects definition
 
-CREATE TABLE "projects" (
-  "id" int NOT NULL AUTO_INCREMENT,
-  "name" varchar(50) COLLATE utf8mb4_0900_bin NOT NULL,
-  "description" varchar(255) COLLATE utf8mb4_0900_bin DEFAULT NULL,
-  "createdAt" datetime NOT NULL,
-  "updatedAt" datetime NOT NULL,
-  PRIMARY KEY ("id")
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_bin;
+CREATE TABLE `projects` (
+	`id`			INT NOT NULL AUTO_INCREMENT,
+	`name`			VARCHAR(50) NOT NULL,
+	`description`	VARCHAR(255) DEFAULT NULL,
+	`createdAt`		DATETIME NOT NULL,
+	`updatedAt`		DATETIME NOT NULL,
+	PRIMARY KEY		(`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
--- todoapp.tasks definition
+-- TodoApp.tasks definition
 
-CREATE TABLE "tasks" (
-  "id" int unsigned NOT NULL AUTO_INCREMENT,
-  "idProject" int NOT NULL,
-  "name" varchar(50) NOT NULL,
-  "description" varchar(255) DEFAULT NULL,
-  "completed" tinyint(1) NOT NULL,
-  "notes" varchar(255) DEFAULT NULL,
-  "deadline" date NOT NULL,
-  "createdAt" datetime NOT NULL,
-  "updatedAt" datetime NOT NULL,
-  PRIMARY KEY ("id"),
-  KEY "tasks_FK" ("idProject"),
-  CONSTRAINT "tasks_FK" FOREIGN KEY ("idProject") REFERENCES "projects" ("id")
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `tasks` (
+	`id`			INT NOT NULL AUTO_INCREMENT,
+	`idProject`		INT NOT NULL,
+	`name`			VARCHAR(50) NOT NULL,
+	`description`	VARCHAR(255) DEFAULT NULL,
+	`completed`		TINYINT(1) NOT NULL,
+	`notes`			VARCHAR(255) DEFAULT NULL,
+	`deadline`		DATE DEFAULT NULL,
+	`createdAt`		DATETIME NOT NULL,
+	`updatedAt`		DATETIME NOT NULL,
+	PRIMARY KEY		(`id`),
+	KEY `tasks_FK`	(`idProject`),
+	CONSTRAINT `tasks_FK` FOREIGN KEY (`idProject`) REFERENCES `projects` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

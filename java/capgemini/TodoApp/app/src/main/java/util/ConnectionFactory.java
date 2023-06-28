@@ -11,13 +11,13 @@ import java.sql.ResultSet;
 
 /**
  *
- * @author jpfalcuci
+ * @author jpfal
  */
 public class ConnectionFactory {
-
+    
 //    public static final String DRIVER   = "com.mysql.jdbc.Driver"; // deprecated
     public static final String DRIVER   = "com.mysql.cj.jdbc.Driver";
-    public static final String URL      = "jdbc:mysql://localhost:3306/todoApp";
+    public static final String URL      = "jdbc:mysql://localhost:3306/TodoApp";
     public static final String USER     = "root";
     public static final String PASS     = "Password";
     
@@ -72,5 +72,4 @@ public class ConnectionFactory {
             throw new RuntimeException("Erro ao fechar a conexão com o banco de dados", ex);
         }
     }
-
 }

@@ -15,10 +15,10 @@ import util.ConnectionFactory;
 
 /**
  *
- * @author jpfalcuci
+ * @author jpfal
  */
 public class TaskController {
-    
+
     public void save(Task task) {
 
         String sql = "INSERT INTO tasks "

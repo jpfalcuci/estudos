@@ -15,7 +15,7 @@ import util.ConnectionFactory;
 
 /**
  *
- * @author jpfalcuci
+ * @author jpfal
  */
 public class ProjectController {
 

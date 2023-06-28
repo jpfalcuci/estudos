@@ -12,7 +12,7 @@ import model.Task;
 
 public class App {
     public static void main(String[] args) {
-
+        
         ProjectController projectController = new ProjectController();
 
         Project project = new Project();
