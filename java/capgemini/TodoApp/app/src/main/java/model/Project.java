@@ -73,14 +73,16 @@ public class Project {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Project{");
-        sb.append("id=").append(id);
-        sb.append(", name=").append(name);
-        sb.append(", description=").append(description);
-        sb.append(", createdAt=").append(createdAt);
-        sb.append(", updatedAt=").append(updatedAt);
-        sb.append('}');
-        return sb.toString();
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("Project{");
+//        sb.append("id=").append(id);
+//        sb.append(", name=").append(name);
+//        sb.append(", description=").append(description);
+//        sb.append(", createdAt=").append(createdAt);
+//        sb.append(", updatedAt=").append(updatedAt);
+//        sb.append('}');
+//        return sb.toString();
+
+        return this.name;
     }
 }
