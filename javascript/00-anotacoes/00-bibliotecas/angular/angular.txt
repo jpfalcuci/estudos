@@ -25,3 +25,32 @@ ng g pipe nomeFuncao
 
 gerar serviços:
 ng g service nomes-servico
+
+
+Roteamento:
+
+ng new roteamento
+npm i @angular/router
+ng g module app-routing --flat --module=app
+
+ng serve --open
+http://localhost:4200/primeira-pagina
+
+
+Lazy load:
+
+ng g module lazy-loading --route=lazy-loading --module=app.module
+Com o modo de desenvolvedor aberto, acesse http://localhost:4200/lazy-loading e veja que o módulo só é carregado quando acessado
+
+
+Route guard
+
+Guardar as rotas, evitar que pessoas sem acesso acessem rotas que deveriam ser protegidas
+
+ng g component pagina-protegida
+
+ng g guard auth
+CanActivate
+
+ng g service auth
+
