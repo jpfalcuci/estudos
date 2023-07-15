@@ -1,0 +1,27 @@
+Angular é um framework utilizado para criação de single-page applications
+Utiliza TypeScript, que é um superset de Javascript
+
+node -v
+npm -v
+
+Instalação de maneira global:
+npm i -g @angular/cli
+ng version
+
+Extensão: Angular Language Service
+
+cmd > ng new fundamentos-angular
+Angular routing: Y
+Stylesheet format: CSS
+
+cd fundamentos-angular
+npm start
+
+criar componentes:
+cmd > ng generate component nome-componente
+
+criar | (pipes, similar a funções)
+ng g pipe nomeFuncao
+
+gerar serviços:
+ng g service nomes-servico
