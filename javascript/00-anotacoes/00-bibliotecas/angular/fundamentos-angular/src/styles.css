@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(0, 72, 155);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: filter .3s ease-in-out;
+    display: block;
+    margin: 10px 0;    
+}
+
+button:hover {
+    filter: brightness(1.4);
+}
