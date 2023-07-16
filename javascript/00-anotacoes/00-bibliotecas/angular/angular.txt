@@ -54,3 +54,24 @@ CanActivate
 
 ng g service auth
 
+
+Instalar Angular Material:
+ng add @angular/material
+
+
+Gerar um módulo já com uma rota e dentro de outro módulo
+ng g module nome-modulo --route nome-rota --module app.module
+
+
+Fazer o build da aplicação:
+ng build --base-href="https://user.github.io/repositorio/"
+
+
+Angular com bootstrap:
+
+ng new angular-bootstrap
+npm i bootstrap
+- adicionar "node_modules/bootstrap/dist/css/bootstrap.min.css" no arquivo angular.json em "projects/angular-bootstrap/architect/build/options/styles"
+
+API reescrita p/ funcionar com Angular:
+https://ng-bootstrap.github.io/#/home
