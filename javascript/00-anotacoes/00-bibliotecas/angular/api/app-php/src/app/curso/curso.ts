@@ -1,3 +1,6 @@
 export class Curso {
-	nomeCurso:string; valorCurso:number; idCurso?:number;
+	constructor() { }
+	public nomeCurso: string = '';
+	public valorCurso: number = 0;
+	public idCurso?: number;
 }

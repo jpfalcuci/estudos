@@ -9,7 +9,7 @@ import { CursoService } from './curso.service';
 })
 export class CursoComponent implements OnInit {
 
-	vetor: Curso[];
+	vetor: Curso[] = [];
 
 	curso = new Curso();
 
@@ -29,21 +29,22 @@ export class CursoComponent implements OnInit {
 
 	cadastro() {
 		this.curso_servico.cadastrarCurso(this.curso).subscribe(
-			(res: Curso[]) => {
-				this.vetor = res;
-				this.curso.nomeCurso = null;
-				this.curso.valorCurso = null;
+			(res: Curso) => {
+				this.vetor.push(res);
+				this.curso.nomeCurso = '';
+				this.curso.valorCurso = 0;
 				this.selecao();
 			}
 		);
 	}
+	  
 
 	alterar() {
 		this.curso_servico.atualizarCurso(this.curso).subscribe(
 			(res) => {
 				this.vetor = res;
-				this.curso.nomeCurso = null;
-				this.curso.valorCurso = null;
+				this.curso.nomeCurso = '';
+				this.curso.valorCurso = 0;
 				this.selecao();
 			}
 		)
@@ -53,8 +54,8 @@ export class CursoComponent implements OnInit {
 		this.curso_servico.removerCurso(this.curso).subscribe(
 			(res: Curso[]) => {
 				this.vetor = res;
-				this.curso.nomeCurso = null;
-				this.curso.valorCurso = null;
+				this.curso.nomeCurso = '';
+				this.curso.valorCurso = 0;
 			}
 		)
 	}

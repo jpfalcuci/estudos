@@ -11,7 +11,7 @@ $extrair = json_decode($obterDados);
 
 // Separar dados do JSON
 $nomeCurso = $extrair->cursos->nomeCurso;
-$valorCursos = $extrair->cursos->valorCurso;
+$valorCurso = $extrair->cursos->valorCurso;
 
 // SQL
 $sql = "INSERT INTO cursos (nomeCurso, valorCurso) VALUES ('$nomeCurso', $valorCurso)";
@@ -19,12 +19,18 @@ $sql = "INSERT INTO cursos (nomeCurso, valorCurso) VALUES ('$nomeCurso', $valorC
 // Executar a query
 $executar = mysqli_query($conexao, $sql);
 
-// Exportar os dados cadastrados
-$curso = [
-    'nomeCurso' => $nomeCurso,
-    'valorCurso' => $valorCurso
-];
-
-json_encode(['curso' => $curso]);
+// Verificar se a consulta SQL foi executada com sucesso
+if ($executar) {
+    $idCurso = mysqli_insert_id($conexao); // Obtém o ID do curso inserido
+    $curso = [
+        'idCurso' => $idCurso,
+        'nomeCurso' => $nomeCurso,
+        'valorCurso' => $valorCurso
+    ];
+    echo json_encode(['curso' => $curso]);
+} else {
+    // Caso ocorra algum erro na execução da consulta SQL, retornar uma mensagem de erro em JSON
+    echo json_encode(['error' => 'Erro ao cadastrar o curso.']);
+}
 
 ?>

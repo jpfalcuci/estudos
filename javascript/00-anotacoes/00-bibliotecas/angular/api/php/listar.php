@@ -24,9 +24,7 @@ while($linha = mysqli_fetch_assoc($executar)) {
 }
 
 // Retornar o vetor em JSON
-json_encode(['cursos' => $cursos]);
+echo json_encode(['cursos' => $cursos]);
 // var_dump($cursos);
 
 ?>
-
-<!-- http://localhost/api/php/listar.php -->
