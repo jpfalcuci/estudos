@@ -1,0 +1,19 @@
+<form>
+    <label>Curso</label>
+    <input type="text" name="nomeCurso" [(ngModel)]="curso.nomeCurso">
+    <br>
+    <label>Valor</label>
+    <input type="text" name="valorCurso" [(ngModel)]="curso.valorCurso">
+    <br>
+    <button (click)="cadastro(this.curso)">Cadastrar</button>
+    <button (click)="alterar(this.curso)">Alterar</button>
+    <button (click)="remover(this.curso)">Excluir</button>
+</form>
+
+<table border="1">
+    <tr *ngFor="let v of vetor">
+        <td>{{ v.nomeCurso }}</td>
+        <td>{{ v.valorCurso }}</td>
+        <td><button (click)="selecionarCurso">Selecionar curso</button></td>
+    </tr>
+</table>

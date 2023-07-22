@@ -1,0 +1,47 @@
+Requisitos:
+- angular
+- node
+- xampp (php, mysql e apache)
+
+Configurações:
+- ativar apache e mysql no xampp
+- criar a pasta "Xampp\htdocs\api"
+- abrir pasta com vscode
+- criar o diretório "Xampp\htdocs\api\php"
+- inserir arquivo .htaccess na pasta "Xampp\htdocs\api" com o seguinte conteúdo:
+```
+	# Remove the php extension from the filename
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+	# Set the headers for the restful api
+	Header always set Access-Control-Allow-Origin http://localhost:4200
+	Header always set Access-Control-Max-Age "1000"
+	Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
+	Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
+```
+
+No terminal:
+> ng new app-php (c/ rotas e css)
+> cd app-php
+
+http://localhost/dashboard/
+
+Acessar phpMyAdmin e criar banco de dados 'api'
+
+CREATE TABLE cursos(
+	idCurso INT AUTO_INCREMENT PRIMARY KEY,
+	nomeCurso VARCHAR(30),
+	valorCurso DECIMAL(10,2)
+);
+
+INSERT INTO cursos VALUES (null, "Angular", 850);
+
+http://localhost/api/php/listar.php
+
+Criar componente curso:
+> ng g c curso
+
+Criar serviço curso:
+> ng g s curso/curso
