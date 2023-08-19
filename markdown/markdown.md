@@ -1,4 +1,4 @@
-# Guia de Uso do Markdown
+# Markdown
 
 O Markdown é uma linguagem de marcação leve que permite a formatação de textos de maneira simples e rápida, sendo amplamente utilizada para criar documentos, posts em blogs, documentação e muito mais. Neste guia, você aprenderá os fundamentos do Markdown e como usá-lo para criar documentos bem formatados.
 
@@ -183,6 +183,8 @@ Exemplo:
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4_tiv9v964k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+_O suporte a tags HTML mais complexas, como a tag <iframe>, pode depender da plataforma em que o documento está sendo exibido._
 
 ---
 
