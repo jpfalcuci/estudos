@@ -14,9 +14,9 @@ O Markdown é uma linguagem de marcação leve que permite a formatação de tex
    - 2.4 [Listas](#24-listas)
    - 2.5 [Listas de Tarefas](#25-listas-de-tarefas)
    - 2.6 [Tachado](#26-tachado)
-   - 2.7 [Fórmulas Matemáticas](#27-formulas-matematicas)
-     - 2.7.1 [Equações em Linha](#271-equacoes-em-linha)
-     - 2.7.2 [Equações em Bloco](#272-equacoes-em-bloco)
+   - 2.7 [Fórmulas Matemáticas](#27-fórmulas-matemáticas)
+     - 2.7.1 [Equações em Linha](#271-equações-em-linha)
+     - 2.7.2 [Equações em Bloco](#272-equações-em-bloco)
 3. [Inserção de Mídia](#3-inserção-de-mídia)
    - 3.1 [Imagens](#31-imagens)
    - 3.2 [Vídeos](#32-vídeos)
@@ -25,7 +25,7 @@ O Markdown é uma linguagem de marcação leve que permite a formatação de tex
 6. [Código Embutido](#6-código-embutido)
 7. [Blocos de Código](#7-blocos-de-código)
 8. [Tabelas](#8-tabelas)
-9. [Notas de Rodapé](#9-notas-de-rodape)
+9. [Notas de Rodapé](#9-notas-de-rodapé)
 10. [Referências](#10-referências)
 
 ---
@@ -33,6 +33,8 @@ O Markdown é uma linguagem de marcação leve que permite a formatação de tex
 ## 1. Introdução ao Markdown
 
 O Markdown foi desenvolvido para ser uma linguagem de marcação de fácil leitura e escrita, semelhante à escrita em texto simples. Ele é convertido para HTML e outros formatos de saída, tornando-o ideal para criação de conteúdo na web. O Markdown é amplamente utilizado em plataformas como GitHub, Stack Overflow e muitos outros.
+
+---
 
 ## 2. Formatação de Texto
 
@@ -140,7 +142,7 @@ $ax^2 + bx + c = 0$, onde $a$, $b$ e $c$ são os coeficientes da equação quadr
 
 #### 2.7.2 Equações em Bloco
 
-Se você precisa de uma fórmula matemática mais complexa, é possível utilizar a sintaxe de bloco ($$).
+Para fórmulas matemáticas mais complexas, é possível utilizar a sintaxe de bloco ($$).
 
 Exemplo:
 
@@ -172,7 +174,7 @@ Exemplo:
 
 ### 3.2 Vídeos
 
-Você pode incorporar vídeos de plataformas como o YouTube.
+É possível incorporar vídeos de plataformas como o YouTube.
 
 Exemplo:
 
